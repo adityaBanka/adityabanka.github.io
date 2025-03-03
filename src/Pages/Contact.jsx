@@ -55,7 +55,9 @@ function Contact() {
             <label htmlFor='message' className='font-semibold mt-4'>Enter your message</label>
             <textarea ref={message} id='message' placeholder="What a lovely site you've made, I would like to offer you a job at [insert company name here]." className='w-full h-50 rounded-lg border-2 border-slate-400 p-2' required />
 
-            <button type='submit' className='w-full rounded-lg border-2 border-slate-400 p-2 bg-sky-600 text-white hover:bg-black mt-4'>Submit</button>
+            <button type='submit' className='w-full rounded-lg border-2 border-slate-400 p-2 bg-sky-600 text-white hover:bg-black mt-4'>
+              Submit
+            </button>
           </form>
         </div>
 
