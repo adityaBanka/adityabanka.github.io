@@ -5,7 +5,7 @@ import ProjectSection from '../Components/ProjectSection'
 
 function Project() {
   
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(10);
   const handleClick = () => {
     setCount(count + 1);
   }
