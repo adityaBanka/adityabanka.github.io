@@ -9,7 +9,7 @@ function NameText({ children }) {
 function HomePage() {
   return (
     <div className='flex flex-col justify-center items-center bg-[#f5f5f7] h-full'>
-      <img src='image.png' className='rounded-full w-3xs p-2 border-white outline'></img>
+      <img src='/image.png' className='rounded-full h-[20%] w-[20%] p-2 border-white outline'></img>
       <NameText >AdityaBanka</NameText>
     </div>
   )
