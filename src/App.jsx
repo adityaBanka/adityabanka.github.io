@@ -10,7 +10,7 @@ import NotFound from './Pages/NotFound.jsx'
 
 function App() {
   return (
-    <div className='h-screen w-screen'>
+    <div className='h-full w-full'> 
       <NavBar />
       <Routes>
         <Route index element={<Home />} />
