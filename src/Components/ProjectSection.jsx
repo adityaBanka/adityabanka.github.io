@@ -7,9 +7,9 @@ function ProjectSection({ direction, title = "Lorem ipsum dolor sit amet consect
 
       <div className={`${direction === 0 ? "lg:text-right" : "text-left"} m-5`}>
 
-        <p className='text-justify lg:text-5xl text-3xl mb-5'>{title}</p>
+        <div className='text-justify lg:text-5xl text-3xl mb-5'>{title}</div>
 
-        <p className=''>{description}</p>
+        <div className=''>{description}</div>
 
       </div>
 

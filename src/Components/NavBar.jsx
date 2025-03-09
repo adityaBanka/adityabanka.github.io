@@ -12,7 +12,7 @@ const CustomButton = ({ children, activity }) => {
 function Home() {
   const location = useLocation();
 
-  const blurClass = location.pathname === '/project' ? 'backdrop-blur-lg' : 'backdrop-blur-sm';
+  const blurClass = location.pathname === '/work' ? 'backdrop-blur-lg' : 'backdrop-blur-sm';
 
   return (
     <nav className={`fixed z-10 w-screen flex justify-center items-center bg-[#f5f5f7]/50 ${blurClass}`}>
@@ -22,7 +22,7 @@ function Home() {
             <CustomButton activity={isActive || location.pathname === '/'}>Home</CustomButton>
         }
       </NavLink>
-      <NavLink to='/project'>
+      <NavLink to='/work'>
         {
           ({ isActive }) =>
             <CustomButton activity={isActive}>Work</CustomButton>
