@@ -33,17 +33,16 @@ function App() {
 
 
   useEffect(() => {
-    if (pageName !== '/') {
-      navigate(pageName)
-    }
     if (location.pathname !== '/') {
       navigate(location.pathname)
+    }
+    if (pageName !== '/') {
+      navigate(pageName)
     }
   }, []);
 
   useEffect(() => {
-    const path = location.pathname
-    sessionStorage.setItem("pageName", path)
+    sessionStorage.setItem("pageName", location.pathname)
   }, [location]);
 
   return (
