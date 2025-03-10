@@ -33,9 +33,11 @@ function App() {
 
 
   useEffect(() => {
-    if(pageName !== '/')
-    {
+    if (pageName !== '/') {
       navigate(pageName)
+    }
+    if (location.pathname !== '/') {
+      navigate(location.pathname)
     }
   }, []);
 
