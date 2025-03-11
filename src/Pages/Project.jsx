@@ -30,7 +30,7 @@ function Project() {
       <div className='space-y-30'>
         <ProjectSection
           title={
-            <p>Comparative training of Artificial Neural Network using Genetic and Stocastic Algorithms</p>
+            <p>Portfolio Website, all this.</p>
           }
           description={
             <p>
