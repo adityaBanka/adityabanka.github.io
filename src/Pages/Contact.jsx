@@ -35,35 +35,40 @@ function Contact() {
   };
 
   return (
-    <div className='w-screen h-fit min-h-screen pt-20 p-[10%] bg-[#f5f5f7]'>
-      <div className='w-full flex flex-col md:flex-row items-center justify-center space-y-10'>
-        <div className='md:w-[40%] w-full flex flex-col md:mr-10 space-y-10'>
-          <div className='flex flex-col w-fit'>
-            <p className='text-2xl'>Drop a message at:</p>
-            <p>Phone Number: +91 - 947 000 4041</p>
-            <p>Email: adityabanka@gmail.com</p>
-          </div>
-
-          <form className='flex flex-col' onSubmit={handleSubmit}>
-            <label htmlFor='name' className='font-semibold'>Enter your name</label>
-            <input ref={name} type='text' id='name' placeholder='John Doe' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
-
-            <label htmlFor='email' className='font-semibold mt-4'>Enter your Email-Id</label>
-            <input ref={email} type='email' id='email' placeholder='johndoe@gmail.com' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
-
-            <label htmlFor='message' className='font-semibold mt-4'>Enter your message</label>
-            <textarea ref={message} id='message' placeholder="What a lovely site you've made, I would like to offer you a job at [insert company name here]." className='w-full h-50 rounded-lg border-2 border-slate-400 p-2' required />
-
-            <button type='submit' className='w-full rounded-lg border-2 border-slate-400 p-2 bg-sky-600 text-white hover:bg-black mt-4'>
-              Submit
-            </button>
-          </form>
-        </div>
-
-        <div className='md:w-[60%]'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        </div>
+    <div className='pt-20 not-md:pb-40 bg-gray-100 flex flex-col md:justify-center items-start space-y-10 min-h-screen h-full px-[5%]'>
+      
+      <div className=''>
+        <h1 className='text-7xl font-bold '>Drop a <span className='text-orange-600'>Message</span></h1>
       </div>
+
+      <div className='w-full justify-center items-start flex md:flex-row flex-col md:space-x-10 not-md:space-y-10 animate-fade-in-up'>
+
+        <form className='flex flex-col w-full bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl' onSubmit={handleSubmit}>
+          <label htmlFor='name' className='font-semibold'>Enter your name</label>
+          <input ref={name} type='text' id='name' placeholder='John Doe' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
+
+          <label htmlFor='email' className='font-semibold mt-4'>Enter your Email-Id</label>
+          <input ref={email} type='email' id='email' placeholder='johndoe@gmail.com' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
+
+          <label htmlFor='message' className='font-semibold mt-4'>Enter your message</label>
+          <textarea ref={message} id='message' placeholder="What a lovely site you've made, I would like to offer you a job at [insert company name here]." className='w-full h-50 rounded-lg border-2 border-slate-400 p-2' required />
+
+          <button type='submit' className='w-full rounded-lg border-2 border-slate-400 p-2 bg-sky-600 text-white hover:bg-black mt-4'>
+            Submit
+          </button>
+        </form>
+
+        <div className='flex flex-col w-full justify-center items-center space-y-5 bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl'>
+          <div className='flex flex-col font-semibold text-gray-800 md:justify-center md:items-center'>
+            <h1 className='text-xl'>Or reach directly at:</h1>
+            <p>Phone: (+91) <span className='text-black font-bold'>947 000 4041</span></p>
+            <p>Email: <span className='text-black font-bold'>adityabanka1947@gmail.com</span></p>
+          </div>
+          <img src='AdityaBankaContact.jpg' className='w-1/2 h-auto rounded-[50px] drop-shadow-2xl pointer-events-none select-none outline-5 outline-white/50'></img>
+        </div>
+
+      </div>
+
     </div>
   );
 }

@@ -1,7 +1,7 @@
 function ProjectSection({ direction, title = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nam.", description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse possimus inventore repudiandae, sint optio voluptas in impedit reiciendis consequatur, iusto enim architecto doloribus mollitia perferendis facilis veritatis repellendus suscipit dolorum provident qui odio. Inventore veniam quo facere cumque fugit impedit, ad deleniti. Possimus, reprehenderit earum deserunt sit omnis nisi.", videoURL = "p2AWYanIHkc" }) {
   return (
 
-    <div className={`flex justify-center items-center p-[2%] flex-col ${direction === 0 ? "lg:flex-row-reverse lg:space-x-reverse" : "lg:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl lg:rounded-4xl mx-[5%] drop-shadow-xl`}>
+    <div className={`flex justify-center items-center p-[2%] flex-col ${direction === 0 ? "lg:flex-row-reverse lg:space-x-reverse" : "lg:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl lg:rounded-4xl mx-[5%] drop-shadow-xl animate-fade-in-up`}>
 
       {
         videoURL && (
