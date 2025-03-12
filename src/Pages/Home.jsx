@@ -12,7 +12,7 @@ function HomePage() {
         <img src="AdityaBanka.jpg" className='w-2/3 md:w-1/3 lg:w-1/4 h-auto rounded-[100px] m-5 pointer-events-none select-none outline-5 outline-white/50 shadow-2xl' alt="Aditya Banka" />
         <div className='flex flex-col not-lg:items-center lg:items-left justify-center lg:space-y-2 space-y-1'>
           <h1 className='text-4xl lg:text-7xl font-bold text-sky-600 drop-shadow-2xl'>Aditya Banka</h1>
-          <p className='lg:text-2xl'>Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Learner | Perfectionist</p>
+          <p className='lg:text-2xl text-center'>Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Learner | Perfectionist</p>
         </div>
       </div>
 
