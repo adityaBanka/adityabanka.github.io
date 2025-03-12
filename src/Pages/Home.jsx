@@ -19,7 +19,7 @@ function HomePage() {
       <div className="flex flex-col lg:flex-row bg-white/50 backdrop-blur-2xl rounded-2xl lg:rounded-4xl mx-[5%] drop-shadow-xl p-[2%]">
 
         <div className="p-5 bg-white/50 backdrop-blur-2xl rounded-xl lg:rounded-2xl drop-shadow-xl flex justify-center items-center">
-          <span className="text-4xl font-semibold text-gray-800"><span className="text-5xl">"</span><span className="text-indigo-500 text-5xl">Jack</span> of all, <span className="text-green-600 text-5xl">Master</span> of a lot."<span className="text-xl text-nowrap">- My dad</span> </span>
+          <span className="text-4xl font-semibold text-gray-800">"He's a <span className="text-indigo-500 text-5xl">Jack</span> of all, and <span className="text-green-600 text-5xl">Master</span> of a lot."<span className="text-xl text-nowrap">- My dad</span> </span>
         </div>
 
         <div className="flex justify-center items-center p-[2%] text-xl w-full text-gray-800">
