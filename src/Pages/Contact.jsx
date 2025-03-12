@@ -66,7 +66,7 @@ function Contact() {
             <p>Email: <span className='text-black font-semibold'>adityabanka1947@gmail.com</span></p>
           </div>
           <img src='AdityaBankaContact.jpg' className='w-1/2 h-auto rounded-[50px] drop-shadow-2xl pointer-events-none select-none outline-5 outline-white/50'></img>
-          <p className='text-center'>I aim to respond within 24 hours, in case of any delays do not hesitate to contact me.</p>
+          <p className='text-center text-pretty'>I aim to respond within 24 hours, in case of any delays do not hesitate to contact me.</p>
         </div>
 
       </div>
