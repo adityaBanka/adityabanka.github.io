@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <div className='flex flex-col justify-center items-center bg-gray-100 h-full min-h-screen py-20 lg:pt-60 space-y-20 '>
       <div className="mx-[10%]">
-        <h1 className="text-7xl font-bold">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
+        <h1 className="text-7xl font-bold text-pretty">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
         {/* <p className="text-2xl lg:text-center">Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Learner</p> */}
       </div>
 
