@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --animate-pop: pop 0.5s ease-out;
+  --animate-pop: pop 0.25s ease-out;
   @keyframes pop {
     0%
     100% {
       transform: scale(1);
     }
-    75% {
-      transform: scale(0.75);
+    50% {
+      transform: scale(0.9);
     }
   }
 }
