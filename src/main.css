@@ -7,7 +7,7 @@
     100% {
       transform: scale(1);
     }
-    50% {
+    75% {
       transform: scale(0.75);
     }
   }
