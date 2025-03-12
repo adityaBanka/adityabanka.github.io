@@ -35,15 +35,16 @@ function Contact() {
   };
 
   return (
-    <div className='pt-20 not-md:pb-40 bg-gray-100 flex flex-col md:justify-center items-start space-y-10 min-h-screen h-full px-[5%]'>
-      
+    <div className='pt-20 not-md:pb-40 w-full bg-gray-100 flex flex-col md:justify-center items-start space-y-10 min-h-screen h-full md:px-[15%] px-[5%]'>
+
       <div className=''>
         <h1 className='text-7xl font-bold '>Drop a <span className='text-orange-600'>Message</span></h1>
       </div>
 
-      <div className='w-full justify-center items-start flex md:flex-row flex-col md:space-x-10 not-md:space-y-10 animate-fade-in-up'>
+      <div className='w-full justify-center items-start flex md:flex-row flex-col-reverse md:space-x-10 not-md:space-y-10 not-md:space-y-reverse animate-fade-in-up'>
 
-        <form className='flex flex-col w-full bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl' onSubmit={handleSubmit}>
+        <form className='w-full flex flex-col bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl' onSubmit={handleSubmit}>
+          <p className='md:visible mb-5 text-xl font-semibold'>Direct contact form (instant notification)</p>
           <label htmlFor='name' className='font-semibold'>Enter your name</label>
           <input ref={name} type='text' id='name' placeholder='John Doe' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
 
@@ -58,13 +59,14 @@ function Contact() {
           </button>
         </form>
 
-        <div className='flex flex-col w-full justify-center items-center space-y-5 bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl'>
-          <div className='flex flex-col font-semibold text-gray-800 md:justify-center md:items-center'>
-            <h1 className='text-xl'>Or reach directly at:</h1>
-            <p>Phone: (+91) <span className='text-black font-bold'>947 000 4041</span></p>
-            <p>Email: <span className='text-black font-bold'>adityabanka1947@gmail.com</span></p>
+        <div className='w-full flex flex-col justify-center items-center space-y-5 bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl'>
+          <div className='flex flex-col text-gray-700 md:justify-center md:items-center'>
+            <h1 className='text-xl'>Reach directly via:</h1>
+            <p>Phone/SMS: (+91) <span className='text-black font-semibold'>947 000 4041</span></p>
+            <p>Email: <span className='text-black font-semibold'>adityabanka1947@gmail.com</span></p>
           </div>
           <img src='AdityaBankaContact.jpg' className='w-1/2 h-auto rounded-[50px] drop-shadow-2xl pointer-events-none select-none outline-5 outline-white/50'></img>
+          <p className='text-center'>I aim to respond within 24 hours, in case of any delays do not hesitate to contact me.</p>
         </div>
 
       </div>
