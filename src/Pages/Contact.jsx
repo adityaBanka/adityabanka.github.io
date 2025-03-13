@@ -60,7 +60,7 @@ function Contact() {
             <p>Email: <span className='text-black font-semibold'>adityabanka1947@gmail.com</span></p>
           </div>
 
-          <div className='flex flex-row items-center justify-center space-x-10'>
+          <div className='flex flex-row items-center justify-center space-x-5'>
             <ImageLink link="https://www.linkedin.com/in/adityabanka/" image="In-Blue-128@2x.png"></ImageLink>
             <ImageLink link="https://github.com/adityaBanka" image="github-mark.svg"></ImageLink>
             <ImageLink link="https://www.instagram.com/adityabanka.ig/" image="Instagram_Glyph_Gradient.png"></ImageLink>
@@ -75,7 +75,7 @@ function Contact() {
           <input ref={name} type='text' id='name' placeholder='John Doe' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
 
           <label htmlFor='email' className='font-semibold mt-4'>Enter your Email-Id</label>
-          <input ref={email} type='email' id='email' placeholder='johndoe@gmail.com' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
+          <input ref={email} type='email' id='email' placeholder='johndoe@email.com' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
 
           <label htmlFor='message' className='font-semibold mt-4'>Enter your message</label>
           <textarea ref={message} id='message' placeholder="What a lovely site you've made, I would like to offer you a job at [insert company name here]." className='w-full h-50 rounded-lg border-2 border-slate-400 p-2' required />
