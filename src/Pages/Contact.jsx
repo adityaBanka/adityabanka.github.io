@@ -52,18 +52,19 @@ function Contact() {
       <div className='w-full justify-center items-start flex md:flex-row-reverse flex-col md:space-x-10 md:space-x-reverse not-md:space-y-10 animate-fade-in-up'>
 
         <div className='w-full md:w-[80%] flex flex-col justify-center items-center space-y-5 bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl'>
+          
+          <img src='AdityaBankaContact.jpg' className='w-1/2 h-auto rounded-[50px] drop-shadow-2xl pointer-events-none select-none outline-1 outline-white/50'></img>
+          <div className='flex flex-col text-gray-700 justify-center items-center text-center text-pretty'>
+            <h1 className='text-xl'>Reach directly via:</h1>
+            <p>Phone/SMS: (+91) <span className='text-black font-semibold'>947 000 4041</span></p>
+            <p>Email: <span className='text-black font-semibold'>adityabanka1947@gmail.com</span></p>
+          </div>
+
           <div className='flex flex-row items-center justify-center space-x-5'>
             <ImageLink link="https://www.linkedin.com/in/adityabanka/" image="In-Blue-128@2x.png"></ImageLink>
             <ImageLink link="https://github.com/adityaBanka" image="github-mark.svg"></ImageLink>
             <ImageLink link="https://www.instagram.com/adityabanka.ig/" image="Instagram_Glyph_Gradient.svg"></ImageLink>
             <ImageLink link="https://x.com/adityabankaX" image="logo-black.png"></ImageLink>
-          </div>
-          <p className='text-center text-pretty'>I aim to respond within 24 hours, in case of any delays please reach dirctly.</p>
-          <img src='AdityaBankaContact.jpg' className='w-1/2 h-auto rounded-[50px] drop-shadow-2xl pointer-events-none select-none'></img>
-          <div className='flex flex-col text-gray-700 justify-center items-center text-center text-pretty'>
-            <h1 className='text-xl'>Reach directly via:</h1>
-            <p>Phone/SMS: (+91) <span className='text-black font-semibold'>947 000 4041</span></p>
-            <p>Email: <span className='text-black font-semibold'>adityabanka1947@gmail.com</span></p>
           </div>
 
         </div>
