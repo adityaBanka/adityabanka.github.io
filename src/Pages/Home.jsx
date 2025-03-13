@@ -18,7 +18,7 @@ function HomePage() {
         <div className="flex flex-col m-5">
           <span className="mb-5 text-3xl font-semibold text-gray-800">&quot;He&apos;s the <span className="text-green-600 text-4xl">Jack</span> of all, and a <span className="text-green-600 text-5xl">Master</span> of many..&quot;<span className="text-xl text-nowrap"> - My dad</span> </span>
 
-          <p className="text-gray-700">From a very young age I have been a man of science. Always wanted to be an <BW>engineer</BW> and now I am one. I am a <BW>quick learner</BW> with a special emphasis on getting behind the why of things. I have a <BW>passion</BW> of anything tech and have always been <BW>pushing the boundaries</BW> of my cicle of knowledge. I have explored a ton of <BW>different domains</BW> and have developed a very <BW>robust problem solving</BW> background. Over the years this has led me to be more <BW>effecient</BW> and quick to provide <BW>real-world insights</BW> into engineering complete solutions.</p>
+          <p className="text-gray-700">From a very young age I have been a man of science. Always wanted to be an <BW>engineer</BW> and now I am one. I am a <BW>quick learner</BW> with a special emphasis on getting behind the why of things. I have a <BW>passion</BW> of anything tech and have always been <BW>pushing the boundaries</BW> of my cicle of knowledge. I have explored a ton of <BW>different domains</BW> and have developed a very <BW>robust problem solving</BW> background. Over the years this has led me to be more <BW>efficient</BW> and quick to provide <BW>real-world insights</BW> into engineering complete solutions.</p>
         </div>
       </div>
 
