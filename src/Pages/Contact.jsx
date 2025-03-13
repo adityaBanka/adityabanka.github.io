@@ -43,13 +43,13 @@ function Contact() {
   };
 
   return (
-    <div className='pt-20 not-md:pb-40 w-full bg-gray-100 flex flex-col md:justify-center items-start space-y-10 min-h-screen h-full md:px-[15%] px-[5%]'>
+    <div className='pt-20 not-md:pb-40 w-full bg-gray-100 flex flex-col md:justify-center items-start space-y-10 min-h-screen h-full'>
 
-      <div className=''>
+      <div className='mx-[10%]'>
         <h1 className='text-7xl font-bold '>Drop a <span className='text-orange-600'>Message</span></h1>
       </div>
 
-      <div className='w-full justify-center items-start flex md:flex-row-reverse flex-col md:space-x-10 md:space-x-reverse not-md:space-y-10 animate-fade-in-up'>
+      <div className='w-full justify-center items-start flex md:flex-row-reverse flex-col not-md:space-y-10 animate-fade-in-up px-[5%] md:px-[10%] md:space-x-10 md:space-x-reverse'>
 
         <div className='w-full md:w-[80%] flex flex-col justify-center items-center space-y-10 bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl'>
 

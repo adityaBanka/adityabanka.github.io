@@ -7,10 +7,10 @@ function BW({ children }) {
 
 function HomePage() {
   return (
-    <div className='flex flex-col justify-center items-center bg-gray-100 h-full min-h-screen py-20 lg:pt-60 space-y-20 md:space-y-50'>
-      <div className="mx-[10%] space-y-5">
-        <h1 className="text-7xl font-bold text-pretty drop-shadow-2xl">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
-        <p className="lg:text-center">Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Founder</p>
+    <div className='flex flex-col bg-gray-100 w-full h-full min-h-screen py-20 lg:pt-60 space-y-20 md:space-y-50'>
+      <div className="flex flex-col justify-center items-center space-y-5 mx-[10%]">
+        <h1 className="text-7xl font-bold drop-shadow-2xl">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
+        <p className="lg:text-justify">Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Founder</p>
       </div>
 
       <div className="flex md:flex-row flex-col justify-center items-center bg-white/50 backdrop-blur-2xl rounded-2xl lg:rounded-4xl mx-[5%] drop-shadow-xl p-[2%] animate-fade-in-up ">
