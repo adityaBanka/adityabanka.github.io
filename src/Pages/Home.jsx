@@ -7,7 +7,7 @@ function BW({ children }) {
 
 function HomePage() {
   return (
-    <div className='flex flex-col bg-gray-100 w-full h-full min-h-screen py-20 lg:pt-60 space-y-20 md:space-y-50'>
+    <div className='flex flex-col bg-gray-100 w-full h-full min-h-screen py-20 md:pt-60 space-y-20 lg:space-y-50'>
       <div className="flex flex-col justify-center items-center space-y-5 mx-[10%]">
         <h1 className="text-7xl font-bold drop-shadow-2xl"><span className="text-blue-500">Hello</span> world, I&apos;m <span className="text-blue-500">Aditya</span> Banka</h1>
         <p className="lg:text-justify">Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Founder</p>

@@ -17,7 +17,7 @@ function Project() {
   }
 
   return (
-    <div className='flex flex-col pt-20 lg:pt-60 bg-gray-100 w-full space-y-20 pb-50'>
+    <div className='flex flex-col pt-20 md:pt-60 bg-gray-100 w-full space-y-20 pb-50'>
 
       <div className='flex flex-col justify-center items-center space-y-10 mx-[10%]'>
         <p className='text-7xl font-bold drop-shadow-2xl'>
