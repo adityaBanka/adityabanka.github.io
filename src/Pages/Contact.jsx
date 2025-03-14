@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 
+// eslint-disable-next-line react/prop-types
 function ImageLink({ image, link }) {
   return (
     <a href={link} target="_blank">

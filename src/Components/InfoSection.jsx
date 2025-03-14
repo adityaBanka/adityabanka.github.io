@@ -20,7 +20,7 @@ function InfoSection({ direction, title, description, type="video", URL="p2AWYan
 
       <div className={`${direction === 1 ? "lg:text-right" : "text-left"} m-5 text-gray-700`}>
 
-        <div className='text-pretty lg:text-5xl text-3xl mb-5'>{title}</div>
+        <div className='text-pretty text-3xl mb-5 font-semibold'>{title}</div>
 
         <div className=''>{description}</div>
 

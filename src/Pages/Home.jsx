@@ -1,18 +1,11 @@
 import InfoSection from "../Components/InfoSection"
-
-// eslint-disable-next-line react/prop-types
-function BW({ children }) {
-  return (
-    <span className='font-semibold text-black'>{children}</span>
-  )
-}
-
+import SSB from "../Components/SemiBoldBlack"
 function HomePage() {
 
   const infoData = [
     {
-      title: <p><span className="mb-5 text-3xl font-semibold text-gray-800">&quot;He&apos;s the <span className="text-green-600 text-4xl">Jack</span> of all, and a <span className="text-green-600 text-5xl">Master</span> of many..&quot;<span className="text-xl text-nowrap"> - My dad</span> </span></p>,
-      description: <p className="text-gray-700">From a very young age I have been a man of science. Always wanted to be an <BW>engineer</BW> and now I am one. I am a <BW>quick learner</BW> with a special emphasis on getting behind the why of things. I am <BW>passionate</BW> about all things tech and constantly <BW>strive to expand</BW> the limits of my knowledge. I have explored a ton of <BW>different domains</BW> and have developed a very <BW>robust problem solving</BW> background. Over the years this has led me to be more <BW>efficient</BW> and quick to provide <BW>real-world insights</BW> into engineering complete solutions.</p>,
+      title: <p><span>&quot;He&apos;s the Jack of all, and a <span className="text-green-600 text-4xl">Master</span> of many..&quot;<span className="text-xl text-nowrap"> - My dad</span> </span></p>,
+      description: <p>From a very young age I have been a man of science. Always wanted to be an <SSB>engineer</SSB> and now I am one. I am a <SSB>quick learner</SSB> with a special emphasis on getting behind the why of things. I am <SSB>passionate</SSB> about all things tech and constantly <SSB>strive to expand</SSB> the limits of my knowledge. I have explored a ton of <SSB>different domains</SSB> and have developed a very <SSB>robust problem solving</SSB> background. Over the years this has led me to be more <SSB>efficient</SSB> and quick to provide <SSB>real-world insights</SSB> into engineering complete solutions.</p>,
       type: "image",
       URL: "AdityaBanka.jpg"
     },
@@ -35,7 +28,7 @@ function HomePage() {
       URL: "MetaBackendCertificate.jpg"
     },
     {
-      title: <p>Programmer by day, photographer by night.</p>,
+      title: <p>Programmer by trade, photographer at heart.</p>,
       description: <p>As part of my college journey I was also involved with activities beyond those just around a desk and a chair. I was a memeber of KIIT&apos;s student broadcasting scociety, aptly named Kreative eye. I tenured for a quater and was involved in providing insights into improving organisational effeciency as well. During the same I was involved in covering and producing social media worthy images. Key event that I was responsible for covering were Republic Day&apos;23, KIIT-Fest&apos;23 and 3rd Digital Data Science Conclave&apos;23.</p>,
       type: "image",
       URL: "KreativeEye.jpg"

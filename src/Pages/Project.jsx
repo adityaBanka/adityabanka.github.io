@@ -1,13 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
 import InfoSection from '../Components/InfoSection'
-
-
-function BW({ children }) {
-  return (
-    <span className='font-semibold text-black'>{children}</span>
-  )
-}
+import SSB from '../Components/SemiBoldBlack'
 
 function Project() {
 
@@ -64,7 +58,7 @@ function Project() {
           My <span className="text-red-600 active:scale-95 inline-block duration-50 select-none animate-pop" onClick={handleClick}>{count}</span>x Developer <span className='whitespace-nowrap'><span className='text-red-600 active:scale-95 inline-block duration-50 select-none animate-pop' onClick={handleClick}>Pro</span>jects</span> {count === 69 ? "😏Nice!" : ""}
         </p>
 
-        <p className='text-justify text-gray-700'>I have been programming since the age of <BW>13</BW>. Since then, I have worked with <BW>Java</BW>, <BW>C</BW>, <BW>C++</BW>, <BW>Python</BW>, <BW>JavaScript</BW>, <BW>HTML</BW>, <BW>CSS</BW>, and many other <BW>programming languages</BW>. In my journey I have made myself well versed in <BW>tools</BW> such as <BW>Git</BW>, <BW>Docker</BW>, <BW>VSCode</BW>, <BW>Postman</BW>, <BW>Android Studio</BW>, <BW>Chrome</BW>, <BW>Arduino</BW>, <BW>STM32</BW>, along with <BW>frameworks</BW> and <BW>libraries</BW> such as <BW>ReactJs</BW>, <BW>NodeJs</BW>, <BW>Tailwind</BW>, <BW>FastAPI</BW>, <BW>Django</BW>, <BW>NumPy</BW>, <BW>Pandas</BW>, <BW>SciKit-Learn</BW>, <BW>Keras</BW>, <BW>TensorFlow</BW>, <BW>TensorflowJs</BW>, <BW>OpenCV</BW>, <BW>Google MediaPipe</BW>, <BW>Processing (Java)</BW> and more. I have used popular <BW>databases</BW> like, <BW>MySQL</BW>, <BW>SQLite</BW>, and <BW>MongoDB</BW>. I frequently use cloud services such as, <BW>Amazon Web Services (Lambda, EC2, S3, SES)</BW> and <BW>Google Cloud Platform</BW> as well. Apart from this I have also devoted time to understanding <BW>Machine Learning</BW> and <BW>Artificial Intelligence</BW>, with special emphasis on <BW>Deep Learning</BW>. Utilising <BW>Neural Networks</BW> like, <BW>1D</BW> and <BW>2D CNNs</BW>, <BW>RNNs</BW> and a plethora of pre-existing models leveraging <BW>Transfer Learning</BW>.</p>
+        <p className='text-justify text-gray-700'>I have been programming since the age of <SSB>13</SSB>. Since then, I have worked with <SSB>Java</SSB>, <SSB>C</SSB>, <SSB>C++</SSB>, <SSB>Python</SSB>, <SSB>JavaScript</SSB>, <SSB>HTML</SSB>, <SSB>CSS</SSB>, and many other <SSB>programming languages</SSB>. In my journey I have made myself well versed in <SSB>tools</SSB> such as <SSB>Git</SSB>, <SSB>Docker</SSB>, <SSB>VSCode</SSB>, <SSB>Postman</SSB>, <SSB>Android Studio</SSB>, <SSB>Chrome</SSB>, <SSB>Arduino</SSB>, <SSB>STM32</SSB>, along with <SSB>frameworks</SSB> and <SSB>libraries</SSB> such as <SSB>ReactJs</SSB>, <SSB>NodeJs</SSB>, <SSB>Tailwind</SSB>, <SSB>FastAPI</SSB>, <SSB>Django</SSB>, <SSB>NumPy</SSB>, <SSB>Pandas</SSB>, <SSB>SciKit-Learn</SSB>, <SSB>Keras</SSB>, <SSB>TensorFlow</SSB>, <SSB>TensorflowJs</SSB>, <SSB>OpenCV</SSB>, <SSB>Google MediaPipe</SSB>, <SSB>Processing (Java)</SSB> and more. I have used popular <SSB>databases</SSB> like, <SSB>MySQL</SSB>, <SSB>SQLite</SSB>, and <SSB>MongoDB</SSB>. I frequently use cloud services such as, <SSB>Amazon Web Services (Lambda, EC2, S3, SES)</SSB> and <SSB>Google Cloud Platform</SSB> as well. Apart from this I have also devoted time to understanding <SSB>Machine Learning</SSB> and <SSB>Artificial Intelligence</SSB>, with special emphasis on <SSB>Deep Learning</SSB>. Utilising <SSB>Neural Networks</SSB> like, <SSB>1D</SSB> and <SSB>2D CNNs</SSB>, <SSB>RNNs</SSB> and a plethora of pre-existing models leveraging <SSB>Transfer Learning</SSB>.</p>
       </div>
 
       <div className='space-y-30'>
