@@ -22,19 +22,22 @@ function Project() {
       description: <p>This is a ReactJs website styled using TailwindCSS, hosted on github pages, being linked to my custom domain on Wix.com. The CI/CD pipepline is very streamlined and updates can be pushed directly via the github repository. Even though it is a static website, I have implemented a contact system using AWS lambda along with AWS Simple Email Service. I gave special emphasis on making the design reactive, responsive and consistent.</p>,
     },
     {
-      title: <p>Detecting sexism in MEMEs.🚨</p>,
-      description: <p>In a research intern opportunity at NIT Patna, I explored the idea of image based sentiment analysis. In the project I was tasked with developing a novel solution to detect sexism in memes. This was done using the EXIST&apos;24 dataset. I worked under the guidance of Dr J. P. Singh and Dr Gunjan Kumar during my intern period. </p>,
+      title: <p>Is that MEME sexist?</p>,
+      description: <p>In a research intern opportunity at NIT Patna, I explored the idea of image based sentiment analysis. In the project I was tasked with developing a novel solution to detect sexism in memes. This was done using the EXIST&apos;24 dataset. I worked under the guidance of Dr J. P. Singh and Dr Gunjan Kumar during my intern period. We explored the effectiveness of different models and techniquses, even leveraging trasnfer learning. I was responsible in the development and training of models with over 15 million trainable parameters. The models were tested on a large dataset of over 4,000 RGBA images in various aspect ratios. I have authored and presented a project report on the same to the organization.</p>,
       type: "image",
       URL: "NitCertificate.jpg"
     },
     {
       title: <p>170,000,000,000x faster sorting.</p>,
       description: <p>This C program is able to sort 1 Billion signed integers i.e. 3.45GB of data in about 20 seconds. It is a multi-processed program that dynamically creates new proceess based on load and requirement. By leveraging all CPU cores on a system it uses in-place quick sort methods. This reduces the overhead caused by other methods like merge sort, or heap sort. First all 1 Billion integers are loaded in a shared memory segment that will be used by all the parallel proceess. Then by usilizing divide and conquer the data is divided into smaller segments and recursively sorted.</p>,
-      type: "video"
     },
     {
       title: <p>Q. Can evolution solve mazes?</p>,
       description: <p>A. Yes! it can. A Java program that simulates evolution using Genetic algorithm. I first create a population of agents that are initialized with random genes. In due time, the simulation finds the fittest individuals, crosses them over and mutates them. After a few generation the property to solve the given maze, gets ingrained in the genes of the agents.</p>
+    },
+    {
+      title: <p></p>,
+      description: <p></p>
     }
   ]
 
