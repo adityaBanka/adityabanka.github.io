@@ -15,6 +15,30 @@ function HomePage() {
       description: <p className="text-gray-700">From a very young age I have been a man of science. Always wanted to be an <BW>engineer</BW> and now I am one. I am a <BW>quick learner</BW> with a special emphasis on getting behind the why of things. I am <BW>passionate</BW> about all things tech and constantly <BW>strive to expand</BW> the limits of my knowledge. I have explored a ton of <BW>different domains</BW> and have developed a very <BW>robust problem solving</BW> background. Over the years this has led me to be more <BW>efficient</BW> and quick to provide <BW>real-world insights</BW> into engineering complete solutions.</p>,
       type: "image",
       URL: "AdityaBanka.jpg"
+    },
+    {
+      title: <p>Research Intern at National Institute of Technology, Patna</p>,
+      description: <p>In a research intern opportunity at NIT Patna, I explored the idea of image based sentiment analysis. In the project I was tasked with developing a novel solution to detect sexism in memes. This was done using the EXIST&apos;24 dataset. I worked under the guidance of Dr J. P. Singh and Dr Gunjan Kumar during my intern period. We explored the effectiveness of different models and techniquses, even leveraging trasnfer learning. I was responsible in the development and training of models with over 15 million trainable parameters. The models were tested on a large dataset of over 4,000 RGBA images in various aspect ratios. I have authored and presented a project report on the same to the organization.</p>,
+      type: "image",
+      URL: "NitCertificate.jpg"
+    },
+    {
+      title: <p>Foundations: Data, Data, Everywhere</p>,
+      description: <p>An online non-credit course authorized by Google and offered through Coursera. In this course I learned the fundamentals of data analytics, data science and engineering. This certificate can be verified by coursera via this <a href='https://coursera.org/verify/5CBR5CXEA69T' target='_black' className='font-bold'>link</a>.</p>,
+      type: "image",
+      URL: "GoogleDataCertificate.jpg"
+    },
+    {
+      title: <p>Introduction to Back-End Development</p>,
+      description: <p>An online non-credit course authorized by Meta and offered through Coursera. In this course I learned the fundamentals of web development, including front end using HTML, CSS, and Javascript and back end using Python. This certificate can be verified by coursera via this <a href='https://coursera.org/verify/GH43JPFZC56M' target='_black' className='font-bold'>link</a>.</p>,
+      type: "image",
+      URL: "MetaBackendCertificate.jpg"
+    },
+    {
+      title: <p>Programmer by day, photographer by night.</p>,
+      description: <p>As part of my college journey I was also involved with activities beyond those just around a desk and a chair. I was a memeber of KIIT&apos;s student broadcasting scociety, aptly named Kreative eye. I tenured for a quater and was involved in providing insights into improving organisational effeciency as well. During the same I was involved in covering and producing social media worthy images. Key event that I was responsible for covering were Republic Day&apos;23, KIIT-Fest&apos;23 and 3rd Digital Data Science Conclave&apos;23.</p>,
+      type: "image",
+      URL: "KreativeEye.jpg"
     }
   ]
 

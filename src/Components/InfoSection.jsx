@@ -4,7 +4,7 @@ function InfoSection({ direction, title, description, type="video", URL="p2AWYan
 
     <div className={`flex justify-center items-center p-[2%] flex-col ${direction === 1 ? "lg:flex-row-reverse lg:space-x-reverse" : "lg:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl lg:rounded-4xl mx-[5%] drop-shadow-xl animate-fade-in-up`}>
 
-      <div className={`rounded-xl lg:rounded-2xl overflow-hidden ${type==='video' || type === "iframe"? "min-w-[55%] w-full aspect-video" : type === "image" ? "lg:max-w-[35%]" : ""} `}>
+      <div className={`rounded-xl lg:rounded-2xl overflow-hidden ${type==='video' || type === "iframe"? "min-w-[55%] w-full aspect-video" : type === "image" ? "lg:min-w-[33%] lg:max-w-[33%]" : ""} `}>
         {
           (type === "image") && (
             <img src={URL} className="w-auto h-full"></img>

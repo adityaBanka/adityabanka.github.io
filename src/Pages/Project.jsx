@@ -22,12 +22,6 @@ function Project() {
       description: <p>A. Yes! it can. A Java program that simulates evolution using Genetic algorithm. I first create a population of agents that are initialized with random genes. In due time, the simulation finds the fittest individuals, crosses them over and mutates them. After a few generation the property to solve the given maze, gets ingrained in the genes of the agents.</p>
     },
     {
-      title: <p>Is that MEME sexist?</p>,
-      description: <p>In a research intern opportunity at NIT Patna, I explored the idea of image based sentiment analysis. In the project I was tasked with developing a novel solution to detect sexism in memes. This was done using the EXIST&apos;24 dataset. I worked under the guidance of Dr J. P. Singh and Dr Gunjan Kumar during my intern period. We explored the effectiveness of different models and techniquses, even leveraging trasnfer learning. I was responsible in the development and training of models with over 15 million trainable parameters. The models were tested on a large dataset of over 4,000 RGBA images in various aspect ratios. I have authored and presented a project report on the same to the organization.</p>,
-      type: "image",
-      URL: "NitCertificate.jpg"
-    },
-    {
       title: <p>170,000,000,000x faster sorting.</p>,
       description: <p>This C program is able to sort 1 Billion signed integers i.e. 3.45GB of data in about 20 seconds. It is a multi-processed program that dynamically creates new proceess based on load and requirement. By leveraging all CPU cores on a system it uses in-place quick sort methods. This reduces the overhead caused by other methods like merge sort, or heap sort. First all 1 Billion integers are loaded in a shared memory segment that will be used by all the parallel proceess. Then by usilizing divide and conquer the data is divided into smaller segments and recursively sorted.</p>,
     },
@@ -40,13 +34,26 @@ function Project() {
       description: <p>Over the summers of 23 I was facinated by fractals and their unique property to make every unique geometric patters. I then wrote a few rules of my own and explored how these patters evolve over different parameters. During one of those exploratory run, I was able to produce a function that was able to make organic looking emergant structures from very simple function using randomess at its core.</p>
     },
     {
-      title: <p></p>,
-      description: <p></p>
+      title: <p>Conway&apos;s game of life</p>,
+      description: <p>This is my attempt at recreating the famous game of life using the world famous mathematician John Horton Conway&apos;s rules. It is a simple simulation that uses 3 simple rules applied over an infinite grid. The &apos;game&apos; explored the idea of emergant life in simple celullar automaton and how it can be used to create complex, alomst life like &apos;creaturs&apos;.</p>,
+    },
+    {
+      title: <p>Hunter or prey?</p>,
+      description: <p>Another Java based simulation that explores the evolution of symbiotic lifeform population over time. We start with a random distridution of population with ample resources for both, and explore how these populations scale and co-exist over time.</p>
+    },
+    {
+      title: <p>CLI real time multiclient chat application</p>,
+      description: <p>A C application that allows multiple clients to connect to a server and chat with each other in real time. The server allows multiple unique users to connect via sockets and send text messages to each or all clients over local network. The application does not use any external library for the same.</p>
+    },
+    {
+      title: <p>A neural network library written in C++</p>,
+      description: <p>A complete implementaƟon of a dynamically buildable Neural Network in C++ without using helper libraries such as Keras or TensorFlow.</p>
     },
     {
       title: <p></p>,
       description: <p></p>
     }
+
   ]
 
   return (
@@ -65,7 +72,7 @@ function Project() {
           projectData.map((data, index) => (
             <InfoSection
               key={index}
-              direction = {index % 2}
+              direction={index % 2}
               title={data.title}
               description={data.description}
               type={data.type}
