@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-
 // eslint-disable-next-line react/prop-types
 function ImageLink({ image, link }) {
   return (
@@ -69,6 +68,7 @@ function Contact() {
           </div>
 
         </div>
+
 
         <form className='w-full flex flex-col bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl' onSubmit={handleSubmit}>
           <p className='md:visible mb-5 text-xl font-semibold'>Direct contact form (instant notification)</p>
