@@ -43,11 +43,11 @@ function Contact() {
   };
 
   return (
-    <div className='pt-20 bg-gray-100 flex flex-col items-center justify-center space-y-20 px-[5%] md:px-[10%]'>
+    <div className='py-20 bg-gray-100 flex flex-col items-center justify-center space-y-20 px-[5%] md:px-[10%]'>
 
       <h1 className='w-full text-7xl font-bold text-start'>Drop a <span className='text-orange-600'>Message</span></h1>
 
-      <div className='flex flex-col md:flex-row md:justify-between space-y-30 md:space-x-30'>
+      <div className='flex flex-col md:flex-row md:justify-between space-y-10 md:space-x-30'>
 
         <div className='p-[2%] flex flex-col justify-center items-center bg-white/50 rounded-2xl drop-shadow-2xl text-gray-700'>
 
