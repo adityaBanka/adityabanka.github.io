@@ -32,7 +32,7 @@ function HomePage() {
       description: <p>Certified in Problem Solving (Basic and Intermediate) by HackerRank. This certification demonstrates my ability to solve algorithmic challenges using efficient data structures and logic. It covers fundamental concepts of problem-solving, including complexity analysis, recursion, sorting, searching algorithms and more.</p>, 
       type: "ImageStack",
       parameter:
-        <div className="overflow-x-auto flex snap-x snap-proximity md:max-w-[33%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 md:hover:rounded-none duration-250 scrollbar-hide touch-pan-x">
+        <div className="overflow-x-auto flex snap-x snap-proximity md:max-w-[33%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 md:hover:rounded-none duration-250 scrollbar-hide">
           <img src="Certificates/HackerRankIntermediateCertificate.jpg" className="snap-start"></img>
           <img src="Certificates/HackerRankBasicCertificate.jpg" className="snap-start"></img>
         </div>

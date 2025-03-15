@@ -19,7 +19,7 @@ function InfoSection({ direction, title, description, type="video", parameter="p
 
         <div className='text-pretty text-3xl mb-5 font-semibold'>{title}</div>
 
-        <div className=''>{description}</div>
+        <div className='text-pretty text-xl'>{description}</div>
 
       </div>
 
