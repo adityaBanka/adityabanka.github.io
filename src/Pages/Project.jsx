@@ -51,9 +51,13 @@ function Project() {
   ]
 
   return (
-    <div className='flex flex-col pt-20 md:pt-60 bg-gray-100 w-full space-y-20 pb-50'>
+    <div className='flex flex-col pt-20 md:pt-60 bg-gray-100 w-full space-y-20 pb-50 px-[5%] md:px[10%]'>
 
-      <div className='flex flex-col justify-center items-center space-y-10 mx-[10%]'>
+      <div className='flex flex-col justify-center items-center space-y-10'>
+
+
+
+
         <p className='text-7xl font-bold drop-shadow-2xl'>
           My <span className="text-red-600 active:scale-95 inline-block duration-50 select-none animate-pop" onClick={handleClick}>{count}</span>x Developer <span className='whitespace-nowrap'><span className='text-red-600 active:scale-95 inline-block duration-50 select-none animate-pop' onClick={handleClick}>Pro</span>jects</span> {count === 69 ? "😏Nice!" : ""}
         </p>

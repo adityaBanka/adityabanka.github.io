@@ -3,7 +3,7 @@ import { useRef } from 'react';
 function ImageLink({ image, link }) {
   return (
     <a href={link} target="_blank">
-      <img src={image} className='w-[45px] h-auto'></img>
+      <img src={image} className='w-[45px] h-auto drop-shadow-2xl'></img>
     </a>
   )
 }
@@ -43,24 +43,23 @@ function Contact() {
   };
 
   return (
-    <div className='pt-20 not-md:pb-40 w-full bg-gray-100 flex flex-col md:justify-center items-start space-y-10 min-h-screen h-full'>
+    <div className='pt-20 bg-gray-100 flex flex-col items-center justify-center space-y-20 px-[5%] md:px-[10%]'>
 
-      <div className='mx-[10%] md:mx-[15%]'>
-        <h1 className='text-7xl font-bold '>Drop a <span className='text-orange-600'>Message</span></h1>
-      </div>
+      <h1 className='w-full text-7xl font-bold text-start'>Drop a <span className='text-orange-600'>Message</span></h1>
 
-      <div className='w-full justify-center items-start flex md:flex-row-reverse flex-col not-md:space-y-10 animate-fade-in-up px-[5%] md:px-[15%] md:space-x-10 md:space-x-reverse'>
+      <div className='flex flex-col md:flex-row md:justify-between space-y-30 md:space-x-30'>
 
-        <div className='w-full md:w-[80%] flex flex-col justify-center items-center space-y-10 bg-white/50 rounded-2xl p-[2%] drop-shadow-2xl'>
+        <div className='p-[2%] flex flex-col justify-center items-center bg-white/50 rounded-2xl drop-shadow-2xl text-gray-700'>
 
-          <img src='AdityaBankaContact.jpg' className='lg:w-2/3 h-auto rounded-xl lg:rounded-2xl m-[1%] drop-shadow-2xl pointer-events-none select-none outline-1 outline-white/50'></img>
-          <div className='flex flex-col text-gray-700 justify-center items-center text-center text-pretty m-5'>
-            <h1 className='text-xl'>Reach directly via:</h1>
-            <p>Phone/SMS: (+91) <span className='text-black font-semibold'>947 000 4041</span></p>
+          <img src='AdityaBankaContact.jpg' className='md:w-[95%] rounded-xl md:rounded-2xl drop-shadow-2xl'></img>
+
+          <div className='flex flex-col justify-center items-center m-5'>
+            <h1 >Reach directly via:</h1>
+            <p>Phone/SMS: (+91) <span className='text-black font-semibold'>9470004041</span></p>
             <p>Email: <span className='text-black font-semibold'>adityabanka1947@gmail.com</span></p>
           </div>
 
-          <div className='flex flex-row items-center justify-center space-x-5'>
+          <div className='flex flex-row items-center justify-center space-x-5 m-5'>
             <ImageLink link="https://www.linkedin.com/in/adityabanka/" image="In-Blue-128@2x.png"></ImageLink>
             <ImageLink link="https://github.com/adityaBanka" image="github-mark.svg"></ImageLink>
             <ImageLink link="https://www.instagram.com/adityabanka.ig/" image="Instagram_Glyph_Gradient.png"></ImageLink>
@@ -70,21 +69,23 @@ function Contact() {
         </div>
 
 
-        <form className='w-full flex flex-col bg-white/50 rounded-2xl p-[5%] drop-shadow-2xl' onSubmit={handleSubmit}>
-          <p className='md:visible mb-5 text-xl font-semibold'>Direct contact form (instant notification)</p>
-          <label htmlFor='name' className='font-semibold'>Enter your name</label>
-          <input ref={name} type='text' id='name' placeholder='John Doe' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
+        <div className='w-full h-fit p-[2%] bg-white/50 rounded-2xl drop-shadow-2xl text-gray-700'>
+        <form className='flex flex-col m-5' onSubmit={handleSubmit}>
+          <p className='mb-5 text-xl font-semibold'>Direct contact form (instant notification)</p>
+          <label htmlFor='name'>Enter your name</label>
+          <input ref={name} type='text' id='name' placeholder='John Doe' className='rounded-xl border-2 border-slate-400 p-2' required />
 
-          <label htmlFor='email' className='font-semibold mt-4'>Enter your Email-Id</label>
-          <input ref={email} type='email' id='email' placeholder='johndoe@email.com' className='w-full rounded-lg border-2 border-slate-400 p-2' required />
+          <label htmlFor='email' className='mt-4'>Enter your Email-Id</label>
+          <input ref={email} type='email' id='email' placeholder='johndoe@email.com' className='rounded-xl border-2 border-slate-400 p-2' required />
 
-          <label htmlFor='message' className='font-semibold mt-4'>Enter your message</label>
-          <textarea ref={message} id='message' placeholder="What a lovely site you've made, I would like to offer you a job at [insert company name here]." className='w-full h-50 rounded-lg border-2 border-slate-400 p-2' required />
+          <label htmlFor='message' className='mt-4'>Enter your message</label>
+          <textarea ref={message} id='message' placeholder="What a lovely site you've made, I would like to offer you a job at [insert company name here]." className='h-30 rounded-xl border-2 border-slate-400 p-2' required />
 
-          <button type='submit' className='w-full rounded-lg border-2 border-slate-400 p-2 bg-sky-600 text-white hover:bg-black mt-4'>
+          <button type='submit' className='w-full rounded-xl border-2 border-sky-700 bg-sky-600 text-white font-semibold hover:bg-sky-700 duration-100 text-xl p-2 mt-4'>
             Submit
           </button>
         </form>
+        </div>
 
       </div>
 
