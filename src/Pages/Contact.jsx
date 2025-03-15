@@ -60,10 +60,10 @@ function Contact() {
           </div>
 
           <div className='flex flex-row items-center justify-center space-x-5 m-5'>
-            <ImageLink link="https://www.linkedin.com/in/adityabanka/" image="In-Blue-128@2x.png"></ImageLink>
-            <ImageLink link="https://github.com/adityaBanka" image="github-mark.svg"></ImageLink>
-            <ImageLink link="https://www.instagram.com/adityabanka.ig/" image="Instagram_Glyph_Gradient.png"></ImageLink>
-            <ImageLink link="https://x.com/adityabankaX" image="logo-black.png"></ImageLink>
+            <ImageLink link="https://www.linkedin.com/in/adityabanka/" image="Logos/In-Blue-128@2x.png"></ImageLink>
+            <ImageLink link="https://github.com/adityaBanka" image="Logos/github-mark.svg"></ImageLink>
+            <ImageLink link="https://www.instagram.com/adityabanka.ig/" image="Logos/Instagram_Glyph_Gradient.png"></ImageLink>
+            <ImageLink link="https://x.com/adityabankaX" image="Logos/logo-black.png"></ImageLink>
           </div>
 
         </div>

@@ -13,25 +13,25 @@ function HomePage() {
       title: <p>Summer Research Intern at <span className="text-4xl text-cyan-600">National Institute of Technology</span>, Patna</p>,
       description: <p>In a research intern opportunity at NIT Patna, I explored the idea of image based sentiment analysis. In the project I was tasked with developing a novel solution to detect sexism in memes. This was done using the EXIST&apos;24 dataset. I worked under the guidance of Dr J. P. Singh and Dr Gunjan Kumar during my intern period. We explored the effectiveness of different models and techniquses, even leveraging trasnfer learning. I was responsible in the development and training of models with over 15 million trainable parameters. The models were tested on a large dataset of over 4,000 RGBA images in various aspect ratios. I have authored and presented a project report on the same to the organization.</p>,
       type: "image",
-      URL: "NitCertificate.jpg"
+      URL: "Certificates/NitCertificate.jpg"
     },
     {
       title: <p>Foundations: <span className="text-4xl text-[#4185f4]">Data</span>, <span className="text-4xl text-[#e84033]">Data</span>, <span className="text-4xl text-[#faba03]">Every</span><span className="text-4xl text-[#33a754]">where</span></p>,
       description: <p>An online non-credit course authorized by Google and offered through Coursera. In this course I learned the fundamentals of data analytics, data science and engineering. This certificate can be verified by coursera via this <a href='https://coursera.org/verify/5CBR5CXEA69T' target='_black' className='font-bold'>link</a>.</p>,
       type: "image",
-      URL: "GoogleDataCertificate.jpg"
+      URL: "Certificates/GoogleDataCertificate.jpg"
     },
     {
       title: <p>Introduction to <span className="text-4xl bg-gradient-to-r from-[#0c64de] via-[#0181f8] to-[#0c64de] bg-clip-text text-transparent">Back-End Development</span></p>,
       description: <p>An online non-credit course authorized by Meta and offered through Coursera. In this course I learned the fundamentals of web development, including front end using HTML, CSS, and Javascript and back end using Python. This certificate can be verified by coursera via this <a href='https://coursera.org/verify/GH43JPFZC56M' target='_black' className='font-bold'>link</a>.</p>,
       type: "image",
-      URL: "MetaBackendCertificate.jpg"
+      URL: "Certificates/MetaBackendCertificate.jpg"
     },
     {
       title: <p>Programmer by trade, <span className="text-4xl text-yellow-500">photographer</span> at <span className="text-4xl text-[#f45664]">heart</span>.</p>,
       description: <p>As part of my college journey I was also involved with activities beyond those just around a desk and a chair. I was a memeber of KIIT&apos;s student broadcasting scociety, aptly named Kreative eye. I tenured for a quater and was involved in providing insights into improving organisational effeciency as well. During the same I was involved in covering and producing social media worthy images. Key event that I was responsible for covering were Republic Day&apos;23, KIIT-Fest&apos;23 and 3rd Digital Data Science Conclave&apos;23.</p>,
       type: "image",
-      URL: "KreativeEye.jpg"
+      URL: "Logos/KreativeEye.jpg"
     }
   ]
 
