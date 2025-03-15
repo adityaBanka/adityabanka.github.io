@@ -74,7 +74,7 @@ function Project() {
               title={data.title}
               description={data.description}
               type={data.type}
-              URL={data.URL}
+              parameter={data.parameter}
             />
           ))
         }
