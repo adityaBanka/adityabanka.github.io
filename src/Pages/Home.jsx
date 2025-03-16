@@ -53,11 +53,11 @@ function HomePage() {
 
   return (
     <div className='flex flex-col bg-gray-100 min-h-screen py-20 md:pt-60 space-y-20 md:space-y-50 px-[5%]'>
+
       <div className="flex flex-col justify-center items-center space-y-5">
-        <h1 className="text-7xl font-bold drop-shadow-2xl"><span className="text-blue-500">Hello</span> world, I&apos;m <span className="text-blue-500">Aditya</span> Banka</h1>
+        <h1 className="text-7xl font-bold text-gray-800">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
         <p className="md:text-justify">Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Founder</p>
       </div>
-
 
       <div className='space-y-30'>
         {
@@ -73,6 +73,7 @@ function HomePage() {
           ))
         }
       </div>
+
     </div>
   )
 }

@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-function InfoSection({ direction, title, description, type="video", parameter="p2AWYanIHkc" }) { //p2AWYanIHkc
+function InfoSection({ direction, title, description, type, parameter }) { //p2AWYanIHkc
   return (
 
     <div className={`flex justify-start items-center p-[2%] flex-col ${direction === 1 ? "md:flex-row-reverse md:space-x-reverse" : "md:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl md:rounded-4xl drop-shadow-xl animate-fade-in-up`}>
