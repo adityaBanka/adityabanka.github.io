@@ -59,7 +59,7 @@ function Project() {
   ]
 
   return (
-    <div className='flex flex-col pt-20 md:pt-60 bg-gray-100 w-full space-y-20 pb-50 px-[5%] md:px[10%]'>
+    <div className='flex flex-col pt-20 md:pt-60 bg-gray-100 w-full space-y-20 pb-50 px-[5%] md:px[10%] snap-y snap-mandatory'>
 
       <div className='flex flex-col justify-center items-center space-y-10'>
 
@@ -76,7 +76,7 @@ function Project() {
       <div className='space-y-30'>
         {
           projectData.map((data, index) => (
-            <InfoSection
+            <InfoSection className="snap-start"
               key={index}
               direction={index % 2}
               title={data.title}

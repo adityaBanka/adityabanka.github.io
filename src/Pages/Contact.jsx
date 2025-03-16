@@ -72,13 +72,13 @@ function Contact() {
 
       <div className='w-full md:w-180 p-[5%] md:p-[2%] bg-white/50 rounded-2xl drop-shadow-2xl text-gray-700 space-y-10'>
 
-        <div className='flex flex-col-reverse md:flex-row space-y-5 space-y-reverse md:space-x-5 items-start justify-between md:bg-white/25 md:drop-shadow-2xl md:rounded-2xl md:p-[2%]'>
-          <div className='flex flex-col space-y-1 text-2xl md:text-right'>
-            <p><span className='text-3xl font-semibold'>Reach directly</span> to me at:</p>
-            <p><span className='text-xl'>Phone/SMS: </span><span className='font-semibold'>+91 9470004041</span></p>
-            <p><span className='text-xl'>Email: </span><span className='font-semibold'>adityabanka1947@gmail.com</span></p>
+        <div className='flex flex-col md:flex-row items-center justify-between md:space-x-5 space-y-5'>
+          <img src="AdityaBankaContact.jpg" className='w-full md:w-[33%] h-auto rounded-2xl drop-shadow-2xl'></img>
+          <div className='text-xl w-full'>
+            <p>Reach <span className='text-2xl'>directly</span> via:</p>
+            <p>Phone: <span className='text-3xl'>+91 9470004041</span></p>
+            <p >Email: <span className='md:text-2xl'>adityabanka1947@gmail.com</span></p>
           </div>
-          <img src="AdityaBankaContact.jpg" className='w-full md:w-[30%] h-auto rounded-2xl drop-shadow-2xl'></img>
         </div>
 
         <p className='text-xl'>Or fill out the <span className='text-3xl font-semibold'>Contact form</span> below.</p>
@@ -87,17 +87,17 @@ function Contact() {
 
           <div className='flex flex-col'>
             <label htmlFor='name'>Enter your name</label>
-            <input ref={name} type='text' id='name' placeholder='John Doe' className='rounded-xl border-2 border-sky-600 p-2 focus:outline-orange-600 caret-orange-700' required />
+            <input ref={name} type='text' id='name' placeholder='John Doe' className='rounded-xl border-2 border-slate-400 p-2 focus:outline-orange-600 caret-orange-700' required />
           </div>
 
           <div className='flex flex-col'>
             <label htmlFor='email'>Enter your Email-Id</label>
-            <input ref={email} type='email' id='email' placeholder='johndoe@email.com' className='rounded-xl border-2 border-sky-600 p-2 focus:outline-orange-600 caret-orange-700' required />
+            <input ref={email} type='email' id='email' placeholder='johndoe@email.com' className='rounded-xl border-2 border-slate-400 p-2 focus:outline-orange-600 caret-orange-700' required />
           </div>
 
           <div className='flex flex-col'>
             <label htmlFor='message'>Enter your message</label>
-            <textarea ref={message} id='message' placeholder="What a lovely site you've made, I would like to offer you a job at [insert company name here]." className='h-30 rounded-xl border-2 border-sky-600 p-2 focus:outline-orange-600 caret-orange-700' required />
+            <textarea ref={message} id='message' placeholder="What a lovely site you've made, I would like to offer you a job at [insert company name here]." className='h-30 rounded-xl border-2 border-slate-400 p-2 focus:outline-orange-600 caret-orange-700' required />
           </div>
 
           <button type='submit' className='rounded-xl bg-sky-600 text-white font-semibold hover:bg-sky-700 duration-100 text-xl p-2 mt-4'>
