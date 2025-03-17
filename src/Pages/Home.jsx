@@ -54,9 +54,9 @@ function HomePage() {
   return (
     <div className='flex flex-col bg-gray-100 min-h-screen py-20 md:pt-60 space-y-20 md:space-y-50 px-[5%]'>
 
-      <div className="flex flex-col justify-center items-center space-y-5">
-        <h1 className="text-7xl font-bold text-gray-800">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
-        <p className="md:text-justify">Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Founder</p>
+      <div className="flex flex-col justify-center items-start lg:items-center space-y-5">
+        <h1 className="text-7xl font-bold text-gray-80 lg:text-center">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
+        <p>Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Founder</p>
       </div>
 
       <div className='space-y-30'>

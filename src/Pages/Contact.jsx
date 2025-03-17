@@ -70,20 +70,20 @@ function Contact() {
 
       </div>
 
-      <div className='w-full md:w-180 p-[5%] md:p-[2%] bg-white/50 rounded-2xl drop-shadow-2xl text-gray-700 space-y-10 animate-fade-in-up'>
+      <div className='w-full md:w-180 p-[2%] md:p-[2%] bg-white/50 rounded-2xl drop-shadow-2xl text-gray-700 space-y-10 animate-fade-in-up'>
 
-        <div className='flex flex-col md:flex-row items-center justify-between md:space-x-5 space-y-5'>
+        <div className='flex flex-col md:flex-row items-center justify-between md:space-x-5 not-md:space-y-5'>
           <img src="AdityaBankaContact.jpg" className='w-full md:w-[33%] h-auto rounded-2xl drop-shadow-2xl'></img>
-          <div className='text-xl w-full'>
+          <div className='text-xl w-full p-[3%]'>
             <p>Reach <span className='text-2xl'>directly</span> via:</p>
             <p>Phone: <span className='text-3xl'>+91 9470004041</span></p>
             <p >Email: <span className='md:text-2xl'>adityabanka1947@gmail.com</span></p>
           </div>
         </div>
 
-        <p className='text-xl md:text-center'>or fill out the <span className='text-3xl font-semibold'>Contact form</span> below.</p>
+        <p className='text-xl md:text-center p-[3%]'>or fill out the <span className='text-3xl font-semibold'>Contact form</span> below.</p>
 
-        <form className='flex flex-col space-y-5' onSubmit={handleSubmit}>
+        <form className='flex flex-col space-y-5 p-[3%]' onSubmit={handleSubmit}>
 
           <div className='flex flex-col'>
             <label htmlFor='name'>Enter your name</label>
