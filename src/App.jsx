@@ -40,6 +40,7 @@ function App() {
 
   useEffect(() => {
     sessionStorage.setItem("pageName", location.pathname)
+    window.scrollTo(0, 0);
   }, [location]);
 
   return (

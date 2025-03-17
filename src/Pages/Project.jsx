@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import InfoSection from '../Components/InfoSection'
 import SSB from '../Components/SemiBoldBlack'
 
@@ -9,6 +9,9 @@ function Project() {
   const handleClick = () => {
     setCount(count + 1);
   }
+
+  useEffect(() => {
+  }, [])
 
   const projectData = [
     {
@@ -59,6 +62,8 @@ function Project() {
   ]
 
   return (
+    
+
     <div className='flex flex-col pt-20 md:pt-60 bg-gray-100 w-full space-y-20 pb-50 px-[5%] md:px[10%] snap-y snap-mandatory'>
 
       <div className='flex flex-col justify-center items-center space-y-10'>
