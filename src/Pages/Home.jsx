@@ -17,15 +17,17 @@ function HomePage() {
     },
     {
       title: <p>Foundations: <span className="text-4xl text-[#4185f4]">Data</span>, <span className="text-4xl text-[#e84033]">Data</span>, <span className="text-4xl text-[#faba03]">Every</span><span className="text-4xl text-[#33a754]">where</span></p>,
-      description: <p>An online non-credit course authorized by Google and offered through Coursera. In this course I learned the fundamentals of data analytics, data science and engineering. This certificate can be verified by coursera via this <a href='https://coursera.org/verify/5CBR5CXEA69T' target='_black' className='font-bold'>link</a>.</p>,
+      description: <p>An online non-credit course authorized by Google and offered through Coursera. In this course I learned the fundamentals of data analytics, data science and engineering.</p>,
       type: "landscape",
-      parameter: "Certificates/GoogleDataCertificate.jpg"
+      parameter: "Certificates/GoogleDataCertificate.jpg",
+      link: "https://coursera.org/verify/5CBR5CXEA69T"
     },
     {
       title: <p>Introduction to <span className="text-4xl bg-gradient-to-r from-[#0c64de] via-[#0181f8] to-[#0c64de] bg-clip-text text-transparent">Back-End Development</span></p>,
-      description: <p>An online non-credit course authorized by Meta and offered through Coursera. In this course I learned the fundamentals of web development, including front end using HTML, CSS, and Javascript and back end using Python. This certificate can be verified by coursera via this <a href='https://coursera.org/verify/GH43JPFZC56M' target='_black' className='font-bold'>link</a>.</p>,
+      description: <p>An online non-credit course authorized by Meta and offered through Coursera. In this course I learned the fundamentals of web development, including front end using HTML, CSS, and Javascript and back end using Python.</p>,
       type: "landscape",
-      parameter: "Certificates/MetaBackendCertificate.jpg"
+      parameter: "Certificates/MetaBackendCertificate.jpg",
+      link: "https://coursera.org/verify/GH43JPFZC56M"
     },
     {
       title: <p><span className="text-[#4eb969]">HackerRank</span> Problem Solver</p>,
@@ -39,9 +41,10 @@ function HomePage() {
     },
     {
       title: <p>Introdution to C++: <span className="text-4xl bg-gradient-to-r from-[#ee7330] via-[#efa020] to-[#ee7330] bg-clip-text text-transparent">Top performer</span></p>, 
-      description: <p>Certified in C++ by Coding Ninja. This certification demonstrates skills and mastery of the language C++. It covers fundamental concepts of C++ programming, including data types, control structures, functions, classes, and more. This certicate can be verified by codingninja via this <a href='https://certificate.codingninjas.com/verify/692d05468a8ae989' target='_black' className='font-bold'>link</a>.</p>,
+      description: <p>Certified in C++ by Coding Ninja. This certification demonstrates skills and mastery of the language C++. It covers fundamental concepts of C++ programming, including data types, control structures, functions, classes, and more.</p>,
       type: "landscape",
-      parameter: "Certificates/CodingNinjaCertificate.jpg"
+      parameter: "Certificates/CodingNinjaCertificate.jpg",
+      link: "https://certificate.codingninjas.com/verify/692d05468a8ae989"
     },
     {
       title: <p>Programmer by trade, <span className="text-4xl text-yellow-500">photographer</span> at <span className="text-4xl text-[#f45664]">heart</span>.</p>,
@@ -59,7 +62,7 @@ function HomePage() {
         <p>Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Founder</p>
       </div>
 
-      <div className='space-y-30'>
+      <div className='space-y-10 md:space-y-30'>
         {
           infoData.map((data, index) => (
             <InfoSection
@@ -69,6 +72,7 @@ function HomePage() {
               description={data.description}
               type={data.type}
               parameter={data.parameter}
+              link = {data.link}
             />
           ))
         }

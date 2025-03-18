@@ -15,7 +15,7 @@ function Project() {
 
   const projectData = [
     {
-      title: <p>Q. Can <span className='text-4xl text-rose-400'>Evolution</span> do path finding?</p>,
+      title: <p>Q. Can <span className='text-4xl text-rose-400'>Evolution</span> solve mazes.</p>,
       description: <p>A. Yes! it can. A Java program that simulates evolution using Genetic algorithm. I first create a population of agents that are initialized with random genes. In due time, the simulation finds the fittest individuals, crosses them over and mutates them. After a few generation the property to traverse a given path, gets ingrained in the genes of the agents.</p>,
       type: 'video',
       parameter: "mW4628K9cls"
@@ -33,7 +33,7 @@ function Project() {
       parameter: "NjBKMzO7Om8"
     },
     {
-      title: <p>Conway&apos;s <a className='text-4xl text-green-500'>Game of Life</a></p>,
+      title: <p>Conway&apos;s <span className='text-4xl text-green-500'>Game of Life</span></p>,
       description: <p>This is my attempt at recreating the famous game of life using the world famous mathematician John Horton Conway&apos;s rules. It is a simple simulation that uses 3 simple rules applied over an infinite grid. The &apos;game&apos; explored the idea of emergant life in simple celullar automaton and how it can be used to create complex, alomst life like &apos;creaturs&apos;.</p>,
       type: 'video',
       parameter: "otJGYtez3ow"
@@ -45,22 +45,34 @@ function Project() {
       parameter: "tL5rS0rHW4Y"
     },
     {
-      title: <p><span className='text-4xl text-green-500'>Prey</span> or <span className='text-4xl text-red-500'>Hunter</span>?</p>, 
+      title: <p><span className='text-4xl text-red-500'>Predator</span> or <span className='text-4xl text-green-500'>Prey</span>?</p>, 
       description: <p>Another Java based simulation that explores the evolution of symbiotic lifeform population over time. We start with a random distridution of population with ample resources for both, and explore how these populations scale and co-exist over time.</p>,
       type: 'video',
       parameter: "O23QpmtvLOc"
     },
     {
-      title: <p>CLI real time multiclient chat application</p>,
+      title: <p><span className='text-4xl text-purple-500'>Real-time multiclient</span> CLI chat application</p>,
       description: <p>A C application that allows multiple clients to connect to a server and chat with each other in real time. The server allows multiple unique users to connect via sockets and send text messages to each or all clients over local network. The application does not use any external library for the same.</p>
     },
     {
-      title: <p>A neural network library written in C++</p>,
+      title: <p>Neural network <span className='text-4xl text-emerald-500'>library</span> written in C++</p>,
       description: <p>A complete implementaƟon of a dynamically buildable Neural Network in C++ without using helper libraries such as Keras or TensorFlow.</p>
     },
     {
-      title: <p>This is not a template!</p>,
+      title: <p>This is <span className='text-4xl text-lime-500'>not a template</span>!</p>,
       description: <p>This is a ReactJs website styled using TailwindCSS, hosted on github pages, being linked to my custom domain on Wix.com. The CI/CD pipepline is very streamlined and updates can be pushed directly via the github repository. Even though it is a static website, I have implemented a contact system using AWS lambda along with AWS Simple Email Service. I gave special emphasis on making the design reactive, responsive and consistent.</p>,
+    },
+    {
+      title: <p>Efficacy analysis of <span className='text-4xl '>Genetic vs Gradient</span> based algorithm for neural network training</p>, 
+      description: <p></p>
+    },
+    {
+      title: <p>I know you&apos;ve seen these sorting videos.</p>,
+      description: <p></p>
+    },
+    {
+      title: <p>Observe the side effects of context switching.</p>,
+      description: <p></p>
     },
     {
       title: <p></p>,
@@ -86,7 +98,7 @@ function Project() {
         <p className='text-justify text-gray-700'>I have been programming since the age of <SSB>13</SSB>. Since then, I have worked with <SSB>Java</SSB>, <SSB>C</SSB>, <SSB>C++</SSB>, <SSB>Python</SSB>, <SSB>JavaScript</SSB>, <SSB>HTML</SSB>, <SSB>CSS</SSB>, and many other <SSB>programming languages</SSB>. In my journey I have made myself well versed in <SSB>tools</SSB> such as <SSB>Git</SSB>, <SSB>Docker</SSB>, <SSB>VSCode</SSB>, <SSB>Postman</SSB>, <SSB>Android Studio</SSB>, <SSB>Chrome</SSB>, <SSB>Arduino</SSB>, <SSB>STM32</SSB>, along with <SSB>frameworks</SSB> and <SSB>libraries</SSB> such as <SSB>ReactJs</SSB>, <SSB>NodeJs</SSB>, <SSB>Tailwind</SSB>, <SSB>FastAPI</SSB>, <SSB>Django</SSB>, <SSB>NumPy</SSB>, <SSB>Pandas</SSB>, <SSB>SciKit-Learn</SSB>, <SSB>Keras</SSB>, <SSB>TensorFlow</SSB>, <SSB>TensorflowJs</SSB>, <SSB>OpenCV</SSB>, <SSB>Google MediaPipe</SSB>, <SSB>Processing (Java)</SSB> and more. I have used popular <SSB>databases</SSB> like, <SSB>MySQL</SSB>, <SSB>SQLite</SSB>, and <SSB>MongoDB</SSB>. I frequently use cloud services such as, <SSB>Amazon Web Services (Lambda, EC2, S3, SES)</SSB> and <SSB>Google Cloud Platform</SSB> as well. Apart from this I have also devoted time to understanding <SSB>Machine Learning</SSB> and <SSB>Artificial Intelligence</SSB>, with special emphasis on <SSB>Deep Learning</SSB>. Utilising <SSB>Neural Networks</SSB> like, <SSB>1D</SSB> and <SSB>2D CNNs</SSB>, <SSB>RNNs</SSB> and a plethora of pre-existing models leveraging <SSB>Transfer Learning</SSB>.</p>
       </div>
 
-      <div className='space-y-30'>
+      <div className='space-y-10 md:space-y-30'>
         {
           projectData.map((data, index) => (
             <InfoSection className="snap-start"
@@ -96,6 +108,7 @@ function Project() {
               description={data.description}
               type={data.type}
               parameter={data.parameter}
+              link={data.link}
             />
           ))
         }
