@@ -39,8 +39,16 @@ function Project() {
       parameter: "otJGYtez3ow"
     },
     {
-      title: <p>Hunter or prey?</p>,
-      description: <p>Another Java based simulation that explores the evolution of symbiotic lifeform population over time. We start with a random distridution of population with ample resources for both, and explore how these populations scale and co-exist over time.</p>
+      title: <p>Better illumination using <span className='text-4xl bg-gradient-to-t from-orange-500 via-slate-400 to-slate-700 bg-clip-text text-transparent'>2D Ray Casting</span></p>,
+      description: <p>Convntional graphics are illuminated using light maps, which is a raster technique, the non conventional but better option is ray tracing. Even they are do no come close to the best possible, that is Ray casting, a technique that is exponentially more compute extensive that both, but producing comepletely natural looking enviornments by projecting beams of light not from the point of observation but from the point of emmission.</p>,
+      type: 'video',
+      parameter: "tL5rS0rHW4Y"
+    },
+    {
+      title: <p><span className='text-4xl text-green-500'>Prey</span> or <span className='text-4xl text-red-500'>Hunter</span>?</p>, 
+      description: <p>Another Java based simulation that explores the evolution of symbiotic lifeform population over time. We start with a random distridution of population with ample resources for both, and explore how these populations scale and co-exist over time.</p>,
+      type: 'video',
+      parameter: "O23QpmtvLOc"
     },
     {
       title: <p>CLI real time multiclient chat application</p>,

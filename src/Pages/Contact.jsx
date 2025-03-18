@@ -81,7 +81,7 @@ function Contact() {
           </div>
         </div>
 
-        <p className='text-xl md:text-center p-[3%]'>or fill out the <span className='text-3xl font-semibold'>Contact form</span> below.</p>
+        <p className='text-xl md:text-center p-[3%]'>or fill out the <span className='text-3xl font-semibold text-orange-600'>Contact form</span> below.</p>
 
         <form className='flex flex-col space-y-5 p-[3%]' onSubmit={handleSubmit}>
 

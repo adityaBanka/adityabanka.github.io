@@ -1,19 +1,34 @@
 // eslint-disable-next-line react/prop-types
-function InfoSection({ direction, title, description, type, parameter }) { //p2AWYanIHkc
+function InfoSection({ direction, title, description, type, parameter, link }) {
+
+  const clickHandler = () => {
+    if (link) {
+      window.open(link, "_blank")
+    }
+  }
+
   return (
 
     <div className={`flex justify-start items-center p-[2%] flex-col ${direction === 1 ? "md:flex-row-reverse md:space-x-reverse" : "md:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl md:rounded-4xl drop-shadow-xl animate-fade-in-up`}>
-      
+
       {
         (type === "video") && (
-          <iframe src={`https://www.youtube.com/embed/${parameter}?autoplay=1&mute=1&fs=0&controls=0&disablekb=1&rel=0&button=0&loop=1&playlist=${parameter}`} className="min-w-[55%] w-full h-auto rounded-xl md:rounded-2xl aspect-video drop-shadow-2xl pointer-events-none"></iframe>
+          <div className="min-w-[55%] w-full" onClick={clickHandler}>
+            <iframe src={`https://www.youtube.com/embed/${parameter}?autoplay=1&mute=1&fs=0&controls=0&disablekb=1&rel=0&button=0&loop=1&playlist=${parameter}`} className=" w-full h-auto rounded-xl md:rounded-2xl aspect-video drop-shadow-2xl pointer-events-none"></iframe>
+          </div>
         ) ||
-        (type === "image") && (
-          <img src={parameter} className="md:max-w-[33%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 md:hover:rounded-none duration-250"></img>
+        (type === "square") && (
+          <img src={parameter} className="md:max-w-[20%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 duration-250" onClick={clickHandler}></img>
+        ) ||
+        (type === "landscape") && (
+          <img src={parameter} className="md:max-w-[40%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:rounded-none md:hover:scale-105 duration-250" onClick={clickHandler}></img>
+        ) ||
+        (type === "portrait") && (
+          <img src={parameter} className="md:max-w-[33%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 duration-250" onClick={clickHandler}></img>
         ) ||
         parameter
       }
-      
+
 
       <div className={`${direction === 1 ? "md:text-right" : "text-left"} m-5 text-gray-700`}>
 
