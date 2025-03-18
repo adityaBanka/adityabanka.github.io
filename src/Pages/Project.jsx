@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useEffect, useState } from 'react'
 import InfoSection from '../Components/InfoSection'
 import SSB from '../Components/SemiBoldBlack'
@@ -18,61 +17,73 @@ function Project() {
       title: <p>Q. Can <span className='text-4xl text-rose-400'>Evolution</span> solve mazes.</p>,
       description: <p>A. Yes! it can. A Java program that simulates evolution using Genetic algorithm. I first create a population of agents that are initialized with random genes. In due time, the simulation finds the fittest individuals, crosses them over and mutates them. After a few generation the property to traverse a given path, gets ingrained in the genes of the agents.</p>,
       type: 'video',
-      parameter: "mW4628K9cls"
+      parameter: "mW4628K9cls",
+      link: "https://github.com/adityaBanka/geneticAgents"
     },
     {
       title: <p><span className='text-4xl text-green-500'>170,000,000,000</span>x faster sorting.</p>,
       description: <p>This C program is able to sort 1 Billion signed integers i.e. 3.45GB of data in about 20 seconds. It is a multi-processed program that dynamically creates new proceess based on load and requirement. By leveraging all CPU cores on a system it uses in-place quick sort methods. This reduces the overhead caused by other methods like merge sort, or heap sort. First all 1 Billion integers are loaded in a shared memory segment that will be used by all the parallel proceess. Then by usilizing divide and conquer the data is divided into smaller segments and recursively sorted.</p>,
       type: 'video',
-      parameter: "8AJy5p1M8lU"
+      parameter: "8AJy5p1M8lU",
+      link : "https://github.com/adityaBanka/distributedSorting"
     },
     {
       title: <p>Emergant <span className='text-4xl text-rose-400'>Organic</span> structures from <span className='text-4xl text-teal-500'>Fractals</span></p>,
       description: <p>Over the summers of 23 I was facinated by fractals and their unique property to make every unique geometric patters. I then wrote a few rules of my own and explored how these patters evolve over different parameters. During one of those exploratory run, I was able to produce a function that was able to make organic looking emergant structures from very simple function using randomess at its core.</p>,
       type: 'video',
-      parameter: "NjBKMzO7Om8"
+      parameter: "NjBKMzO7Om8",
+      link: "https://github.com/adityaBanka/organicFractal"
     },
     {
       title: <p>Conway&apos;s <span className='text-4xl text-green-500'>Game of Life</span></p>,
       description: <p>This is my attempt at recreating the famous game of life using the world famous mathematician John Horton Conway&apos;s rules. It is a simple simulation that uses 3 simple rules applied over an infinite grid. The &apos;game&apos; explored the idea of emergant life in simple celullar automaton and how it can be used to create complex, alomst life like &apos;creaturs&apos;.</p>,
       type: 'video',
-      parameter: "otJGYtez3ow"
+      parameter: "otJGYtez3ow",
+      link: "https://github.com/adityaBanka/gameOfLife"
     },
     {
       title: <p>Better illumination using <span className='text-4xl bg-gradient-to-t from-orange-500 via-slate-400 to-slate-700 bg-clip-text text-transparent'>2D Ray Casting</span></p>,
       description: <p>Convntional graphics are illuminated using light maps, which is a raster technique, the non conventional but better option is ray tracing. Even they are do no come close to the best possible, that is Ray casting, a technique that is exponentially more compute extensive that both, but producing comepletely natural looking enviornments by projecting beams of light not from the point of observation but from the point of emmission.</p>,
       type: 'video',
-      parameter: "tL5rS0rHW4Y"
+      parameter: "tL5rS0rHW4Y",
+      link: "https://github.com/adityaBanka/rayCasting"
     },
     {
       title: <p><span className='text-4xl text-red-500'>Predator</span> or <span className='text-4xl text-green-500'>Prey</span>?</p>, 
       description: <p>Another Java based simulation that explores the evolution of symbiotic lifeform population over time. We start with a random distridution of population with ample resources for both, and explore how these populations scale and co-exist over time.</p>,
       type: 'video',
-      parameter: "O23QpmtvLOc"
+      parameter: "O23QpmtvLOc",
+      link: "https://github.com/adityaBanka/predatorOrPrey"
     },
     {
       title: <p><span className='text-4xl text-purple-500'>Real-time multiclient</span> CLI chat application</p>,
-      description: <p>A C application that allows multiple clients to connect to a server and chat with each other in real time. The server allows multiple unique users to connect via sockets and send text messages to each or all clients over local network. The application does not use any external library for the same.</p>
+      description: <p>A C application that allows multiple clients to connect to a server and chat with each other in real time. The server allows multiple unique users to connect via sockets and send text messages to each or all clients over local network. The application does not use any external library for the same.</p>,
+      link : "https://github.com/adityaBanka/realTimeCLIChatApp"
     },
     {
       title: <p>Neural network <span className='text-4xl text-emerald-500'>library</span> written in C++</p>,
-      description: <p>A complete implementaƟon of a dynamically buildable Neural Network in C++ without using helper libraries such as Keras or TensorFlow.</p>
+      description: <p>A complete implementaƟon of a dynamically buildable Neural Network in C++ without using helper libraries such as Keras or TensorFlow.</p>,
+      link : "https://github.com/adityaBanka/neuralNetworkLibrary"
     },
     {
       title: <p>This is <span className='text-4xl text-lime-500'>not a template</span>!</p>,
       description: <p>This is a ReactJs website styled using TailwindCSS, hosted on github pages, being linked to my custom domain on Wix.com. The CI/CD pipepline is very streamlined and updates can be pushed directly via the github repository. Even though it is a static website, I have implemented a contact system using AWS lambda along with AWS Simple Email Service. I gave special emphasis on making the design reactive, responsive and consistent.</p>,
+      link : "https://github.com/adityaBanka/adityabanka.github.io"
     },
     {
       title: <p>Efficacy analysis of <span className='text-4xl '>Genetic vs Gradient</span> based algorithm for neural network training</p>, 
-      description: <p></p>
+      description: <p></p>,
+      link : "https://github.com/adityaBanka/geneticVsGradient"
     },
     {
       title: <p>I know you&apos;ve seen these sorting videos.</p>,
-      description: <p></p>
+      description: <p></p>,
+      link : "https://github.com/adityaBanka/sortingVideo"
     },
     {
       title: <p>Observe the side effects of context switching.</p>,
-      description: <p></p>
+      description: <p></p>,
+      link : "https://github.com/adityaBanka/findingContextSwitches"
     },
     {
       title: <p></p>,
