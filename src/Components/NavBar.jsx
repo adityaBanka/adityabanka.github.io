@@ -1,5 +1,6 @@
-import { NavLink, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
+// eslint-disable-next-line react/prop-types
 const CustomButton = ({ children, activity }) => {
   return (
     <button className={`w-25 duration-100 text-sm rounded-full hover:text-sky-400 active:scale-95 ${activity ? 'text-blue-400 text-xl font-bold' : 'hover:scale-110 text-slate-500 py-5'}`}>
@@ -9,12 +10,9 @@ const CustomButton = ({ children, activity }) => {
 }
 
 function Home() {
-  const location = useLocation();
-
-  const blurClass = location.pathname === '/work' ? 'backdrop-blur-lg' : 'backdrop-blur-sm';
 
   return (
-    <nav className={`fixed z-10 w-screen flex justify-center items-center bg-[#f5f5f7]/50 ${blurClass}`}>
+    <nav className="fixed z-10 w-screen flex justify-center items-center bg-[#f5f5f7]/50 backdrop-blur-2xl">
       <NavLink to='/home'>
         {
           ({ isActive }) =>

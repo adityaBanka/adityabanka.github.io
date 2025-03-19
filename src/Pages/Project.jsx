@@ -73,16 +73,21 @@ function Project() {
     {
       title: <p>Efficacy analysis of <span className='text-4xl '>Genetic vs Gradient</span> based algorithm for neural network training</p>, 
       description: <p></p>,
+      type: "image",
       link : "https://github.com/adityaBanka/geneticVsGradient"
     },
     {
-      title: <p>I know you&apos;ve seen these sorting videos.</p>,
-      description: <p></p>,
+      title: <p>I know you&apos;ve seen these <span className='text-4xl text-cyan-500'>Sorting</span> videos.</p>, 
+      description: <p>..and I made one too. Inspired by a popular youtube video, I attempted at recreating the same, by diving deeper, learning step based frame and how to effeciently use simple data structures like arrays and hashmaps. With no real world application this was a learning experience.</p>,
+      type : "video",
+      parameter : "UIWkpdtD1E8",
       link : "https://github.com/adityaBanka/sortingVideo"
     },
     {
       title: <p>Observe the side effects of context switching.</p>,
       description: <p></p>,
+      type : "landscape",
+      parameter: "",
       link : "https://github.com/adityaBanka/findingContextSwitches"
     },
     {
