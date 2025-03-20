@@ -19,6 +19,7 @@ function App() {
   const location = useLocation()
 
   useEffect(() => {
+    
     const handleBeforeUnload = () => {
       console.log("Page is being refreshed or closed");
       setPageName(location.pathname)

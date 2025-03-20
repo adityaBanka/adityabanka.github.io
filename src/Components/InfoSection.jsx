@@ -1,3 +1,4 @@
+
 // eslint-disable-next-line react/prop-types
 function InfoSection({ direction, title, description, type, parameter, link }) {
 
@@ -13,8 +14,10 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
 
       {
         (type === "video") && (
-          <div className="min-w-[55%] w-full" onClick={clickHandler}>
+          <div className="min-w-[55%] w-full rounded-2xl overflow-hidden" onClick={clickHandler}>
             <iframe src={`https://www.youtube.com/embed/${parameter}?autoplay=1&mute=1&fs=0&controls=0&disablekb=1&rel=0&button=0&loop=1&playlist=${parameter}`} className=" w-full h-auto rounded-xl md:rounded-2xl aspect-video drop-shadow-2xl pointer-events-none"></iframe>
+
+
           </div>
         ) ||
         (type === "square") && (
