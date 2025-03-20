@@ -15,7 +15,7 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.9 }
     );
 
     if (videoRef.current) {
