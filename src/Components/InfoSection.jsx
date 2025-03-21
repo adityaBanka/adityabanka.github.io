@@ -25,7 +25,7 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
     observer.observe(cardRef.current);
 
