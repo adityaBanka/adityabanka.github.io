@@ -57,12 +57,12 @@ function Project() {
     },
     {
       title: <p><span className='text-4xl text-purple-500'>Real-time multiclient</span> CLI chat application</p>,
-      description: <p>A C application that allows multiple clients to connect to a server and chat with each other in real time. The server allows multiple unique users to connect via sockets and send text messages to each or all clients over local network. The application does not use any external library for the same.</p>,
+      description: <p>A linux based C application that allows multiple clients to connect to a server and chat with each other in real time. The server allows multiple unique users to connect via sockets and send text messages to each or all clients over local network. The application does not use any external library for the same.</p>,
       link : "https://github.com/adityaBanka/realTimeCLIChatApp"
     },
     {
       title: <p>Neural network <span className='text-4xl text-emerald-500'>library</span> written in C++</p>,
-      description: <p>A complete implementaƟon of a dynamically buildable Neural Network in C++ without using helper libraries such as Keras or TensorFlow.</p>,
+      description: <p>A complete implementation of a library that let&apos;s you dynamically build a Neural Network in C++ without using helper libraries such as Keras or TensorFlow.</p>, 
       link : "https://github.com/adityaBanka/neuralNetworkLibrary"
     },
     {
@@ -72,7 +72,7 @@ function Project() {
     },
     {
       title: <p>Efficacy analysis of <span className='text-4xl '>Genetic vs Gradient</span> based algorithm for neural network training</p>, 
-      description: <p></p>,
+      description: <p>As part of my college project, I was tasked to come up with an independent topic of research and devoted my time understanding the differences between Genetic Algorithm and Gradient Descent. I then implemented both of them and compared their performance. The results were quite surprising, Genetic Algorithm was able to find the global optimum in a much shorter time than Gradient Descent for the chosen task.</p>,
       type: "image",
       link : "https://github.com/adityaBanka/geneticVsGradient"
     },
@@ -85,7 +85,7 @@ function Project() {
     },
     {
       title: <p>Observe the side effects of context switching.</p>,
-      description: <p></p>,
+      description: <p>A python script that lets you overload your CPU and observe the side effects of context switching. </p>,
       type : "landscape",
       parameter: "",
       link : "https://github.com/adityaBanka/findingContextSwitches"
