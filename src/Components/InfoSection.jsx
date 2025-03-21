@@ -39,7 +39,7 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
           }
         });
       },
-      { threshold: 0.9 }
+      { threshold: 0.5 }
     );
 
     if (videoRef.current) {
