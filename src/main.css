@@ -28,4 +28,32 @@
   }
 }
 
+@theme {
+  --animate-from-left-to-right: fromLeftToRight 0.5s ease-out;
+  @keyframes fromLeftToRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-10%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+@theme {
+  --animate-from-right-to-left: fromRightToLeft 0.5s ease-out;
+  @keyframes fromRightToLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(10%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
 @plugin 'tailwind-scrollbar-hide';

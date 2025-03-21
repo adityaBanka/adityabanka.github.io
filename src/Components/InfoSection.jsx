@@ -1,8 +1,35 @@
 import { useEffect, useRef, useState } from 'react';
 // eslint-disable-next-line react/prop-types
 function InfoSection({ direction, title, description, type, parameter, link }) {
+  const cardRef = useRef(null);
   const videoRef = useRef(null);
   const [player, setPlayer] = useState(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if(direction === 1){
+            entry.target.classList.toggle("md:animate-from-left-to-right", entry.isIntersecting);
+            entry.target.classList.toggle("opacity-0", !entry.isIntersecting);
+            // entry.target.classList.toggle("scale-50", !entry.isIntersecting);
+            entry.target.classList.toggle("animate-fade-in-up", entry.isIntersecting);
+          }else{
+            entry.target.classList.toggle("md:animate-from-right-to-left", entry.isIntersecting);
+            entry.target.classList.toggle("opacity-0", !entry.isIntersecting);
+            // entry.target.classList.toggle("scale-50", !entry.isIntersecting);
+          }
+          entry.target.classList.toggle("animate-fade-in-up", entry.isIntersecting);
+          if(entry.isIntersecting){
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+    observer.observe(cardRef.current);
+
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -40,7 +67,7 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
   }
 
   return (
-    <div className={`flex justify-start items-center p-[2%] flex-col ${direction === 1 ? "md:flex-row-reverse md:space-x-reverse" : "md:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl md:rounded-4xl drop-shadow-xl animate-fade-in-up`}>
+    <div ref={cardRef} className={`flex justify-start items-center p-[2%] flex-col ${direction === 1 ? "md:flex-row-reverse md:space-x-reverse" : "md:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl md:rounded-4xl drop-shadow-xl opacity-0 duration-500`}>
       {
         (type === "video") && (
           <div className="min-w-[55%] w-full rounded-2xl overflow-hidden" onClick={clickHandler} ref={videoRef}>

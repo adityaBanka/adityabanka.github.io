@@ -40,7 +40,7 @@ function HomePage() {
         </div>
     },
     {
-      title: <p>Introdution to C++: <span className="text-4xl bg-gradient-to-r from-[#ee7330] via-[#efa020] to-[#ee7330] bg-clip-text text-transparent">Top performer</span></p>, 
+      title: <p>Introduction to C++: <span className="text-4xl bg-gradient-to-r from-[#ee7330] via-[#efa020] to-[#ee7330] bg-clip-text text-transparent">Top performer</span></p>, 
       description: <p>Certified in C++ by Coding Ninja. This certification demonstrates skills and mastery of the language C++. It covers fundamental concepts of C++ programming, including data types, control structures, functions, classes, and more.</p>,
       type: "landscape",
       parameter: "Certificates/CodingNinjaCertificate.jpg",
@@ -48,7 +48,7 @@ function HomePage() {
     },
     {
       title: <p>Programmer by trade, <span className="text-4xl text-yellow-500">photographer</span> at <span className="text-4xl text-[#f45664]">heart</span>.</p>,
-      description: <p>As part of my college journey I was also involved with activities beyond those just around a desk and a chair. I was a memeber of KIIT&apos;s student broadcasting scociety, aptly named Kreative eye. I tenured for a quater and was involved in providing insights into improving organisational effeciency as well. During the same I was involved in covering and producing social media worthy images. Key event that I was responsible for covering were Republic Day&apos;23, KIIT-Fest&apos;23 and 3rd Digital Data Science Conclave&apos;23.</p>,
+      description: <p>As part of my college journey I was also involved with activities beyond those just around a desk and a chair. I was a member of KIIT&apos;s student broadcasting society, aptly named Kreative eye. I was tenured for 3 quatres, and was tasked to cover events and produce social media ready content for the same. I was also responsible in improving organizational efficiency. Key events that covered were Republic Day&apos;23, KIIT-Fest&apos;23 and The 3rd Digital Data Science Conclave&apos;23.</p>,
       type: "square",
       parameter: "Logos/KreativeEye.jpg"
     }
