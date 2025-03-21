@@ -56,6 +56,13 @@ function Project() {
       link: "https://github.com/adityaBanka/predatorOrPrey"
     },
     {
+      title: <p>I know you&apos;ve seen these <span className='text-4xl text-cyan-500'>Sorting</span> videos.</p>,
+      description: <p>..and I made one too. Inspired by a popular youtube video, I attempted at recreating the same, by diving deeper, learning step based frame and how to efficiently use simple data structures like arrays and hashmaps. With no real world application this was a learning experience.</p>,
+      type: "video",
+      parameter: "UIWkpdtD1E8",
+      link: "https://github.com/adityaBanka/sortingVideo"
+    },
+    {
       title: <p><span className='text-4xl text-purple-500'>Real-time multiclient</span> CLI chat application</p>,
       description: <p>A linux based C application that allows multiple clients to connect to a server and chat with each other in real time. The server allows multiple unique users to connect via sockets and send text messages to each or all clients over local network. The application does not use any external library for the same.</p>,
       link: "https://github.com/adityaBanka/realTimeCLIChatApp"
@@ -68,6 +75,8 @@ function Project() {
     {
       title: <p>This is <span className='text-4xl text-lime-500'>not a template</span>!</p>,
       description: <p>This is a ReactJs website styled using TailwindCSS, hosted on github pages, being linked to my custom domain on Wix.com. The CI/CD pipeline is very streamlined and updates can be pushed directly via the github repository. Even though it is a static website, I have implemented a contact system using AWS lambda along with AWS Simple Email Service. I gave special emphasis on making the design reactive, responsive and consistent.</p>,
+      type : "landscape",
+      parameter : "websiteImage.jpg",
       link: "https://github.com/adityaBanka/adityabanka.github.io"
     },
     {
@@ -75,13 +84,6 @@ function Project() {
       description: <p>As part of my college project, I was tasked to come up with an independent topic of research and devoted my time understanding the differences between Genetic Algorithm and Gradient Descent. I then implemented both of them and compared their performance. The results were quite surprising, Genetic Algorithm was able to find the global optimum in a much shorter time than Gradient Descent for the chosen task.</p>,
       type: "image",
       link: "https://github.com/adityaBanka/geneticVsGradient"
-    },
-    {
-      title: <p>I know you&apos;ve seen these <span className='text-4xl text-cyan-500'>Sorting</span> videos.</p>,
-      description: <p>..and I made one too. Inspired by a popular youtube video, I attempted at recreating the same, by diving deeper, learning step based frame and how to efficiently use simple data structures like arrays and hashmaps. With no real world application this was a learning experience.</p>,
-      type: "video",
-      parameter: "UIWkpdtD1E8",
-      link: "https://github.com/adityaBanka/sortingVideo"
     },
     {
       title: <p>Observe the side effects of <span className='text-4xl text-orange-500'>context switching</span>.</p>,

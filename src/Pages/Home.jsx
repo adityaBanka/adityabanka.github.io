@@ -18,14 +18,14 @@ function HomePage() {
     {
       title: <p>Foundations: <span className="text-4xl text-[#4185f4]">Data</span>, <span className="text-4xl text-[#e84033]">Data</span>, <span className="text-4xl text-[#faba03]">Every</span><span className="text-4xl text-[#33a754]">where</span></p>,
       description: <p>An online non-credit course authorized by Google and offered through Coursera. In this course I learned the fundamentals of data analytics, data science and engineering.</p>,
-      type: "landscape",
+      type: "certificate",
       parameter: "Certificates/GoogleDataCertificate.jpg",
       link: "https://coursera.org/verify/5CBR5CXEA69T"
     },
     {
       title: <p>Introduction to <span className="text-4xl bg-gradient-to-r from-[#0c64de] via-[#0181f8] to-[#0c64de] bg-clip-text text-transparent">Back-End Development</span></p>,
       description: <p>An online non-credit course authorized by Meta and offered through Coursera. In this course I learned the fundamentals of web development, including front end using HTML, CSS, and Javascript and back end using Python.</p>,
-      type: "landscape",
+      type: "certificate",
       parameter: "Certificates/MetaBackendCertificate.jpg",
       link: "https://coursera.org/verify/GH43JPFZC56M"
     },
@@ -34,7 +34,7 @@ function HomePage() {
       description: <p>Certified in Problem Solving (Basic and Intermediate) by HackerRank. This certification demonstrates my ability to solve algorithmic challenges using efficient data structures and logic. It covers fundamental concepts of problem-solving, including complexity analysis, recursion, sorting, searching algorithms and more.</p>, 
       type: "ImageStack",
       parameter:
-        <div className="overflow-x-auto flex snap-x snap-proximity md:max-w-[45%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 md:hover:rounded-none duration-250 scrollbar-hide">
+        <div className="overflow-x-auto flex snap-x snap-proximity md:max-w-[40%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 md:hover:rounded-none duration-250 scrollbar-hide">
           <img src="Certificates/HackerRankIntermediateCertificate.jpg" className="snap-start"></img>
           <img src="Certificates/HackerRankBasicCertificate.jpg" className="snap-start"></img>
         </div>
@@ -42,7 +42,7 @@ function HomePage() {
     {
       title: <p>Introduction to C++: <span className="text-4xl bg-gradient-to-r from-[#ee7330] via-[#efa020] to-[#ee7330] bg-clip-text text-transparent">Top performer</span></p>, 
       description: <p>Certified in C++ by Coding Ninja. This certification demonstrates skills and mastery of the language C++. It covers fundamental concepts of C++ programming, including data types, control structures, functions, classes, and more.</p>,
-      type: "landscape",
+      type: "certificate",
       parameter: "Certificates/CodingNinjaCertificate.jpg",
       link: "https://certificate.codingninjas.com/verify/692d05468a8ae989"
     },

@@ -9,17 +9,14 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
+          entry.target.classList.toggle("animate-fade-in-up", entry.isIntersecting);
           if(direction === 1){
             entry.target.classList.toggle("md:animate-from-left-to-right", entry.isIntersecting);
             entry.target.classList.toggle("opacity-0", !entry.isIntersecting);
-            // entry.target.classList.toggle("scale-50", !entry.isIntersecting);
-            entry.target.classList.toggle("animate-fade-in-up", entry.isIntersecting);
           }else{
             entry.target.classList.toggle("md:animate-from-right-to-left", entry.isIntersecting);
             entry.target.classList.toggle("opacity-0", !entry.isIntersecting);
-            // entry.target.classList.toggle("scale-50", !entry.isIntersecting);
           }
-          entry.target.classList.toggle("animate-fade-in-up", entry.isIntersecting);
           if(entry.isIntersecting){
             observer.unobserve(entry.target);
           }
@@ -89,10 +86,13 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
           <img src={parameter} className="md:max-w-[20%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 duration-250" onClick={clickHandler}></img>
         ) ||
         (type === "landscape") && (
-          <img src={parameter} className="md:max-w-[40%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:rounded-none md:hover:scale-105 duration-250" onClick={clickHandler}></img>
+          <img src={parameter} className="md:max-w-[55%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:rounded-none md:hover:scale-105 duration-250" onClick={clickHandler}></img>
         ) ||
         (type === "portrait") && (
           <img src={parameter} className="md:max-w-[33%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 duration-250" onClick={clickHandler}></img>
+        ) ||
+        (type === "certificate") && (
+          <img src={parameter} className="md:max-w-[40%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 duration-250" onClick={clickHandler}></img>
         ) ||
         parameter
       }
