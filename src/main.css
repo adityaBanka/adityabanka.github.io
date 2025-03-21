@@ -19,7 +19,7 @@
   @keyframes fadeInUp {
     0% {
       opacity: 0;
-      transform: translateY(10%) scale(1);
+      transform: translateY(10%) scale(0.5);
     }
     100% {
       opacity: 1;
@@ -33,11 +33,11 @@
   @keyframes fromLeftToRight {
     0% {
       opacity: 0;
-      transform: translateX(-10%);
+      transform: translateX(-10%) scale(0.9);
     }
     100% {
       opacity: 1;
-      transform: translateX(0);
+      transform: translateX(0) scale(1);
     }
   }
 }
@@ -47,11 +47,11 @@
   @keyframes fromRightToLeft {
     0% {
       opacity: 0;
-      transform: translateX(10%);
+      transform: translateX(10%) scale(0.9);
     }
     100% {
       opacity: 1;
-      transform: translateX(0);
+      transform: translateX(0) scale(1);
     }
   }
 }
