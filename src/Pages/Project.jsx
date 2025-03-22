@@ -14,14 +14,14 @@ function Project() {
 
   const projectData = [
     {
-      title: <p>Q. Can <span className='text-4xl text-rose-400'>Evolution</span> solve mazes.</p>,
+      title: <p>Q. Can <span className='text-4xl text-rose-400'>Evolution</span> solve mazes?</p>,
       description: <p>A. Yes! it can. This is a Java program simulates evolution using Genetic algorithm. I first create a population of agents that are initialized with random genes. In due time, the simulation finds the fittest individuals, crosses them over and mutates them. After a few generation the property to traverse a given path, gets ingrained in the genes of the agents.</p>,
       type: 'video',
       parameter: "mW4628K9cls",
       link: "https://github.com/adityaBanka/geneticAgents"
     },
     {
-      title: <p><span className='text-4xl text-green-500'>170,000,000,000</span>x faster sorting.</p>,
+      title: <p><span className='text-4xl text-green-500'>170,000,000,000</span>x faster sorting</p>,
       description: <p>This C program is able to sort 1 Billion signed integers i.e. 3.45GB of data in about 20 seconds. It is multi-processed and can dynamically create new process based on load and requirement. This is achieved by leveraging all CPU cores on a system and using in-place quick sort method. This also reduces the overhead caused by other methods like merge sort, or heap sort. First all 1 Billion integers are loaded in a shared memory segment that will be used by all the parallel processes. Then by utilizing divide and conquer the data is divided into smaller segments and recursively sorted.</p>,
       type: 'video',
       parameter: "8AJy5p1M8lU",
@@ -70,14 +70,14 @@ function Project() {
       link: "https://github.com/adityaBanka/predatorOrPrey"
     },
     {
-      title: <p>I know you&apos;ve seen these <span className='text-4xl text-cyan-500'>Sorting</span> videos.</p>,
+      title: <p>I know you&apos;ve seen these <span className='text-4xl text-cyan-500'>Sorting</span> videos</p>,
       description: <p>..and I made one too. Inspired by a popular youtube video, I attempted at recreating the same, by diving deeper, learning step based frame and how to efficiently use simple data structures like arrays and hashmaps. With no real world application this was a learning experience.</p>,
       type: "video",
       parameter: "UIWkpdtD1E8",
       link: "https://github.com/adityaBanka/sortingVideo"
     },
     {
-      title: <p>Efficacy analysis of <span className='text-4xl text-blue-500'>Genetic vs Gradient</span> based algorithm for neural network training.</p>,
+      title: <p>Efficacy analysis of <span className='text-4xl text-blue-500'>Genetic vs Gradient</span> based algorithm for neural network training</p>,
       description: <p>As part of my college project, I was tasked to come up with an independent topic of research. I then devoted my time understanding the differences between Genetic Algorithm and Gradient Descent. After which implemented both of them and compared their performance. The findings were very counter-intuitive, Genetic Algorithm was able to find the global optimum in much shorter training time than Gradient Descent for the chosen task.</p>,
       type: "certificate",
       parameter: "Certificates/MinorProject.jpg",
