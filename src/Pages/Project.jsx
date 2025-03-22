@@ -71,7 +71,7 @@ function Project() {
     },
     {
       title: <p>I know you&apos;ve seen these <span className='text-4xl text-cyan-500'>Sorting</span> videos</p>,
-      description: <p>..and I made one too. Inspired by a popular youtube video, I attempted at recreating the same, by diving deeper, learning step based frame and how to efficiently use simple data structures like arrays and hashmaps. With no real world application this was a learning experience.</p>,
+      description: <p>..and I made one too. Inspired by a popular youtube video, I attempted to recreate it by diving deeper into learning step based frame rendering and how to efficiently use simple data structures like arrays and hashmaps. While it didn&apos;t have a real-world application, it was a valuable learning experience.</p>,
       type: "video",
       parameter: "UIWkpdtD1E8",
       link: "https://github.com/adityaBanka/sortingVideo"
@@ -85,7 +85,7 @@ function Project() {
     },
     {
       title: <p>This is <span className='text-4xl text-lime-500'>not a template</span>!</p>,
-      description: <p>I've designed, coded, and deployed everything from scratch. This is a ReactJs website styled using TailwindCSS, hosted on github pages, being linked to my custom domain on Wix.com. The CI/CD pipeline is very streamlined and updates can be pushed directly via the github repository. Even though it is a static website, I have implemented a contact system using AWS lambda along with AWS Simple Email Service. I gave special emphasis on making the design reactive, responsive and consistent.</p>,
+      description: <p>I&apos;ve designed, coded, and deployed everything from scratch. This is a ReactJs website styled using TailwindCSS, hosted on github pages, being linked to my custom domain on Wix.com. The CI/CD pipeline is very streamlined and updates can be pushed directly via the github repository. Even though it is a static website, I have implemented a contact system using AWS lambda along with AWS Simple Email Service. I gave special emphasis on making the design reactive, responsive and consistent.</p>,
       type: "landscape",
       parameter: "websiteImage.jpg",
       link: "https://github.com/adityaBanka/adityabanka.github.io"
@@ -140,7 +140,7 @@ function Project() {
         }
       </div>
 
-      <p className='text-4xl text-center text-gray-700'>Some more <span className='whitespace-nowrap font-semibold'><span className='text-red-600 inline-block'>Pro</span>jects</span> by me..</p>
+      <p className='text-4xl text-center text-gray-700'>Some more <span className='whitespace-nowrap font-semibold'><span className='text-red-600 inline-block'>Pro</span>jects</span>..</p>
 
       <div className='space-y-10'>
         {
