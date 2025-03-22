@@ -64,7 +64,7 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
   }
 
   return (
-    <div ref={cardRef} className={`flex justify-start items-center p-[2%] flex-col ${direction === 1 ? "md:flex-row-reverse md:space-x-reverse" : "md:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl md:rounded-4xl drop-shadow-xl opacity-0 duration-500`}>
+    <div ref={cardRef} className={`w-full flex justify-start items-center p-[2%] flex-col ${direction === 1 ? "md:flex-row-reverse md:space-x-reverse" : "md:flex-row "} bg-white/50 backdrop-blur-2xl rounded-2xl md:rounded-4xl drop-shadow-xl opacity-0 duration-500`}>
       {
         (type === "video") && (
           <div className="min-w-[55%] w-full rounded-2xl overflow-hidden" onClick={clickHandler} ref={videoRef}>

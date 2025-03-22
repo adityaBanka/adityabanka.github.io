@@ -45,7 +45,7 @@ function Contact() {
   return (
     <div className='flex flex-col bg-gray-100 min-h-screen py-20 md:pt-60 space-y-20 md:space-y-50 px-[5%] justify-center items-center'>
 
-      <div className='flex flex-col justify-center items-start md:items-center space-y-5'>
+      <div className='flex flex-col justify-center items-start md:items-center space-y-5 md:space-y-10'>
 
         <h1 className='text-7xl font-bold text-gray-800'>Let&apos;s get in <span className='text-orange-600'>touch</span>, drop a <span className='text-orange-600'>message</span></h1>
 
