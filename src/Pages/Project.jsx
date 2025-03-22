@@ -49,14 +49,14 @@ function Project() {
       link: "https://github.com/adityaBanka/rayCasting"
     },
     {
-      title: <p>Visualizing <span className='text-4xl text-orange-500'>Context Switching</span> and <span className='text-4xl text-red-600'>Trap of Multiprocessing</span>.</p>,
+      title: <p>Visualizing <span className='text-4xl text-orange-500'>Context Switching</span> and <span className='text-4xl text-red-600'>Trap of Multiprocessing</span></p>,
       description: <p>A python script that lets you overload your CPU and observe the side effects of context switching, and also see the potential dangers of overdoing multiprocessing. With this project I was able to go a step below conventional programming and explore the impact of my code not on the user but the hardware running it.</p>,
       type: "video",
       parameter: "qAoUFOli4pw",
       link: "https://github.com/adityaBanka/findingContextSwitches"
     },
     {
-      title: <p>Using Depth First Search for <span className='text-4xl text-amber-600'>Depth First Exploration</span>.</p>,
+      title: <p>Using Depth First Search for <span className='text-4xl text-amber-600'>Depth First Exploration</span></p>,
       description: <p>One of the most commonly used algorithm for pathfinding is Depth First Search (DFS). But what if there are no nodes? Here I have used DFS to create a graph rather than traverse it. This let&apos;s me create Mazes and other interesting structures, while also deepening my understanding of these elegant algorithms.</p>,
       type: "video",
       parameter: "5P5qIHNARsY",
@@ -77,7 +77,7 @@ function Project() {
       link: "https://github.com/adityaBanka/sortingVideo"
     },
     {
-      title: <p>Efficacy analysis of <span className='text-4xl text-blue-500'>Genetic vs Gradient</span> based algorithm for neural network training</p>,
+      title: <p>Efficacy analysis of <span className='text-4xl text-blue-500'>Genetic vs Gradient</span> based algorithm for neural network training.</p>,
       description: <p>As part of my college project, I was tasked to come up with an independent topic of research. I then devoted my time understanding the differences between Genetic Algorithm and Gradient Descent. After which implemented both of them and compared their performance. The findings were very counter-intuitive, Genetic Algorithm was able to find the global optimum in much shorter training time than Gradient Descent for the chosen task.</p>,
       type: "certificate",
       parameter: "Certificates/MinorProject.jpg",
