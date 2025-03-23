@@ -140,7 +140,7 @@ function Project() {
         }
       </div>
 
-      <p className='text-4xl text-center text-gray-700'>Some more <span className='whitespace-nowrap font-semibold'><span className='text-red-600 inline-block'>Pro</span>jects</span>..</p>
+      <p className='text-md md:text-4xl text-center text-gray-700'>Some more <span className='whitespace-nowrap font-semibold'><span className='text-red-600 inline-block'>Pro</span>jects</span>..</p>
 
       <div className='space-y-10'>
         {
@@ -167,7 +167,7 @@ function Project() {
         }
       </div>
 
-      <p className='text-xl text-center text-gray-700'>This list may look short, or long, or boring, or interesting, but there&apos;s one thing I can assure you, it&apos;s 100% a product of my own efforts and not just cheaply plagiarized. This is a result of my decade long coding journey and imagination.</p>
+      <p className='text-sm md:text-xl text-center text-gray-700'>This list may look short, or long, or boring, or interesting, but there&apos;s one thing I can assure you, it&apos;s 100% a product of my own efforts and not just cheaply plagiarized. This is a result of my decade long coding journey and imagination.</p>
 
     </div>
   )
