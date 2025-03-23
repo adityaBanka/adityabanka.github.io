@@ -4,7 +4,7 @@ function HomePage() {
 
   const infoData = [
     {
-      title: <p><span>&quot;He&apos;s a Jack of all, and a <span className="text-4xl text-green-600">Master of many</span>..&quot;<span className="text-xl text-nowrap"> - My dad</span> </span></p>,
+      title: <p><span>&quot;He&apos;s a Jack of all, and a <span className="text-4xl text-green-600">Master of many</span>&quot;<span className="text-xl text-nowrap"> - My dad</span> </span></p>,
       description: <p>From a very young age I have been a man of science. Always wanted to be an <SSB>engineer</SSB> and now I am one. I am a <SSB>quick learner</SSB> with a special emphasis on getting behind the why of things. I am <SSB>passionate</SSB> about all things tech and constantly <SSB>strive to expand</SSB> the limits of my knowledge. I have explored a ton of <SSB>different domains</SSB> and have developed a very <SSB>robust problem solving</SSB> background. Over the years this has led me to be more <SSB>efficient</SSB> and quick to provide <SSB>real-world insights</SSB> into engineering complete solutions.</p>,
       type: "square",
       parameter: "AdityaBankaContact.jpg"
