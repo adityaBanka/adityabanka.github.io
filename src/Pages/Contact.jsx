@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useState, useRef } from 'react';
 // eslint-disable-next-line react/prop-types
 function ImageLink({ image, link }) {
   return (
@@ -13,9 +13,12 @@ function Contact() {
   const email = useRef(null);
   const message = useRef(null);
 
+  const [buttonText, setButtonText] = useState("Send");
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      setButtonText("Sending...");
       const response = await fetch('https://jasvfy4dj1.execute-api.ap-south-1.amazonaws.com/default/', {
         method: 'POST',
         headers: {
@@ -35,9 +38,14 @@ function Contact() {
       email.current.value = '';
       message.current.value = '';
 
+      setButtonText("Sent!");
+
       alert("Message sent successfully!");
 
+      setButtonText("Send")
+
     } catch (error) {
+      setButtonText("Failed to send, Try again.");
       console.error('Error submitting the form', error);
     }
   };
@@ -104,12 +112,11 @@ function Contact() {
           </div>
 
           <button type='submit' className='rounded-xl bg-sky-600 text-white font-semibold hover:bg-sky-700 duration-100 text-xl p-2 mt-4'>
-            Submit
+            {buttonText}
           </button>
         </form>
       </div>
 
-      {/* big letters and number and email */}
     </div>
   );
 }
