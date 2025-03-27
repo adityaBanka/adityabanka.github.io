@@ -47,7 +47,7 @@ function HomePage() {
       link: "https://certificate.codingninjas.com/verify/692d05468a8ae989"
     },
     {
-      title: <p>Programmer by trade, <span className="text-4xl text-yellow-500">photographer</span> at <span className="text-4xl text-[#f45664]">heart</span>.</p>,
+      title: <p>Programmer by passion, <span className="text-4xl text-yellow-500">photographer</span> at <span className="text-4xl text-[#f45664]">heart</span>.</p>,
       description: <p>As part of my college journey I was also involved with activities beyond those just around a desk and a chair. I was a member of KIIT&apos;s student broadcasting society, aptly named Kreative eye. I was tenured for 3 quatres, and was tasked to cover events and produce social media ready content for the same. I was also responsible in improving organizational efficiency. Key events that covered were Republic Day&apos;23, KIIT-Fest&apos;23 and The 3rd Digital Data Science Conclave&apos;23.</p>,
       type: "square",
       parameter: "Logos/KreativeEye.jpg"
