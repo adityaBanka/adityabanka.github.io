@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react'
 import InfoSection from '../Components/InfoSection'
 import SSB from '../Components/SemiBoldBlack'
 
+import MinorProject from '../assets/Certificates/MinorProject.jpg'
+import ProjectImage from '../assets/websiteImage.jpg'
+
 function Project() {
 
   const [count, setCount] = useState(10);
@@ -80,14 +83,14 @@ function Project() {
       title: <p>Efficacy analysis of <span className='text-4xl text-blue-500'>Genetic vs Gradient</span> based algorithm for neural network training</p>,
       description: <p>As part of my college project, I was tasked to come up with an independent topic of research. I then devoted my time understanding the differences between Genetic Algorithm and Gradient Descent. After which implemented both of them and compared their performance. The findings were very counter-intuitive, Genetic Algorithm was able to find the global optimum in much shorter training time than Gradient Descent for the chosen task.</p>,
       type: "certificate",
-      parameter: "src/Assets/Certificates/MinorProject.jpg",
+      parameter: MinorProject,
       link: "https://github.com/adityaBanka/geneticVsGradient"
     },
     {
       title: <p>This is <span className='text-4xl text-lime-500'>not a template</span>!</p>,
       description: <p>I&apos;ve designed, coded, and deployed everything from scratch. This is a ReactJs website styled using TailwindCSS, hosted on github pages, being linked to my custom domain on Wix.com. The CI/CD pipeline is very streamlined and updates can be pushed directly via the github repository. Even though it is a static website, I have implemented a contact system using AWS lambda along with AWS Simple Email Service. I gave special emphasis on making the design reactive, responsive and consistent.</p>,
       type: "landscape",
-      parameter: "src/Assets/websiteImage.jpg",
+      parameter: ProjectImage,
       link: "https://github.com/adityaBanka/adityabanka.github.io"
     },
   ]
