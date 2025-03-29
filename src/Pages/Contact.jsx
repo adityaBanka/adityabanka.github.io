@@ -60,23 +60,23 @@ function Contact() {
         <div className="flex flex-row items-center justify-center space-x-5">
           <ImageLink
             link="https://github.com/adityaBanka"
-            image="Logos/github-mark.svg"
+            image="src/Assets/Logos/github-mark.svg"
           ></ImageLink>
           <ImageLink
             link="https://www.linkedin.com/in/adityabanka/"
-            image="Logos/In-Blue-128@2x.png"
+            image="src/Assets/Logos/In-Blue-128@2x.png"
           ></ImageLink>
           <ImageLink
             link="https://www.instagram.com/adityabanka.ig/"
-            image="Logos/Instagram_Glyph_Gradient.png"
+            image="src/Assets/Logos/Instagram_Glyph_Gradient.png"
           ></ImageLink>
           <ImageLink
             link="https://x.com/adityabankaX"
-            image="Logos/logo-black.png"
+            image="src/Assets/Logos/logo-black.png"
           ></ImageLink>
           <ImageLink
           link="https://www.youtube.com/@AdityaBankaYT"
-          image="Logos/Youtube.png"></ImageLink>
+          image="src/Assets/Logos/Youtube.png"></ImageLink>
         </div>
 
       </div>
@@ -84,7 +84,7 @@ function Contact() {
       <div className='w-full md:w-180 p-[2%] bg-white/50 rounded-2xl md:rounded-4xl drop-shadow-2xl text-gray-700 space-y-10 animate-fade-in-up'>
 
         <div className='flex flex-col md:flex-row items-center justify-between md:space-x-5 not-md:space-y-5'>
-          <img src="AdityaBankaContact.jpg" className='w-full md:w-[33%] h-auto rounded-xl md:rounded-2xl drop-shadow-2xl'></img>
+          <img src="src/Assets/AdityaBankaContact.jpg" className='w-full md:w-[33%] h-auto rounded-xl md:rounded-2xl drop-shadow-2xl'></img>
           <div className='text-xl w-full p-[3%]'>
             <p>Reach <span className='text-2xl'>directly</span> via:</p>
             <p>Phone: <span className='text-3xl'>+91 9470004041</span></p>

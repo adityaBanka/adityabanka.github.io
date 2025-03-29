@@ -7,26 +7,26 @@ function HomePage() {
       title: <p><span>&quot;He&apos;s a Jack of all, and a <span className="text-4xl text-green-600">Master of many</span>&quot;<span className="text-xl text-nowrap"> - My dad</span> </span></p>,
       description: <p>From a very young age I have been a man of science. Always wanted to be an <SSB>engineer</SSB> and now I am one. I am a <SSB>quick learner</SSB> with a special emphasis on getting behind the why of things. I am <SSB>passionate</SSB> about all things tech and constantly <SSB>strive to expand</SSB> the limits of my knowledge. I have explored a ton of <SSB>different domains</SSB> and have developed a very <SSB>robust problem solving</SSB> background. Over the years this has led me to be more <SSB>efficient</SSB> and quick to provide <SSB>real-world insights</SSB> into engineering complete solutions.</p>,
       type: "square",
-      parameter: "AdityaBankaContact.jpg"
+      parameter: "src/Assets/AdityaBankaContact.jpg"
     },
     {
       title: <p>Summer Research Intern at <span className="text-4xl text-cyan-600">National Institute of Technology</span>, Patna</p>,
       description: <p>During my research internship at NIT Patna, I explored the concept of image-based sentiment analysis. The project involved developing a novel solution to detect sexism in memes, utilizing the EXIST&apos;24 dataset. Under the guidance of Dr. J. P. Singh and Dr. Gunjan Kumar, we investigated the effectiveness of various models and techniques, including the use of transfer learning. I was responsible for developing and training models with over 15 million trainable parameters. These models were tested on a large dataset comprising over 4,000 RGBA images of varying aspect ratios. Additionally, I authored and presented a project report on the findings to the organization.</p>,
       type: "portrait",
-      parameter: "Certificates/NitCertificate.jpg"
+      parameter: "src/Assets/Certificates/NitCertificate.jpg"
     },
     {
       title: <p>Foundations: <span className="text-4xl text-[#4185f4]">Data</span>, <span className="text-4xl text-[#e84033]">Data</span>, <span className="text-4xl text-[#faba03]">Every</span><span className="text-4xl text-[#33a754]">where</span></p>,
       description: <p>An online non-credit course authorized by Google and offered through Coursera. In this course I learned the fundamentals of data analytics, data science and engineering.</p>,
       type: "certificate",
-      parameter: "Certificates/GoogleDataCertificate.jpg",
+      parameter: "src/Assets/Certificates/GoogleDataCertificate.jpg",
       link: "https://coursera.org/verify/5CBR5CXEA69T"
     },
     {
       title: <p>Introduction to <span className="text-4xl bg-gradient-to-r from-[#0c64de] via-[#0181f8] to-[#0c64de] bg-clip-text text-transparent">Back-End Development</span></p>,
       description: <p>An online non-credit course authorized by Meta and offered through Coursera. In this course I learned the fundamentals of web development, including front end using HTML, CSS, and Javascript and back end using Python.</p>,
       type: "certificate",
-      parameter: "Certificates/MetaBackendCertificate.jpg",
+      parameter: "src/Assets/Certificates/MetaBackendCertificate.jpg",
       link: "https://coursera.org/verify/GH43JPFZC56M"
     },
     {
@@ -35,22 +35,22 @@ function HomePage() {
       type: "ImageStack",
       parameter:
         <div className="overflow-x-auto flex snap-x snap-proximity md:max-w-[40%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 md:hover:rounded-none duration-250 scrollbar-hide">
-          <img src="Certificates/HackerRankIntermediateCertificate.jpg" className="snap-start"></img>
-          <img src="Certificates/HackerRankBasicCertificate.jpg" className="snap-start"></img>
+          <img src="src/Assets/Certificates/HackerRankIntermediateCertificate.jpg" className="snap-start"></img>
+          <img src="src/Assets/Certificates/HackerRankBasicCertificate.jpg" className="snap-start"></img>
         </div>
     },
     {
       title: <p>Introduction to C++: <span className="text-4xl bg-gradient-to-r from-[#ee7330] via-[#efa020] to-[#ee7330] bg-clip-text text-transparent">Top performer</span></p>, 
       description: <p>Certified in C++ by Coding Ninja. This certification demonstrates skills and mastery of the language C++. It covers fundamental concepts of C++ programming, including data types, control structures, functions, classes, and more.</p>,
       type: "certificate",
-      parameter: "Certificates/CodingNinjaCertificate.jpg",
+      parameter: "src/Assets/Certificates/CodingNinjaCertificate.jpg",
       link: "https://certificate.codingninjas.com/verify/692d05468a8ae989"
     },
     {
       title: <p>Programmer by passion, <span className="text-4xl text-yellow-500">photographer</span> at <span className="text-4xl text-[#f45664]">heart</span>.</p>,
       description: <p>As part of my college journey I was also involved with activities beyond those just around a desk and a chair. I was a member of KIIT&apos;s student broadcasting society, aptly named Kreative eye. I was tenured for 3 quatres, and was tasked to cover events and produce social media ready content for the same. I was also responsible in improving organizational efficiency. Key events that covered were Republic Day&apos;23, KIIT-Fest&apos;23 and The 3rd Digital Data Science Conclave&apos;23.</p>,
       type: "square",
-      parameter: "Logos/KreativeEye.jpg"
+      parameter: "src/Assets/Logos/KreativeEye.jpg"
     }
   ]
 
