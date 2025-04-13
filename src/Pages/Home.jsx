@@ -57,7 +57,7 @@ function HomePage() {
       link: "https://certificate.codingninjas.com/verify/692d05468a8ae989"
     },
     {
-      title: <p>Programmer by passion, <span className="text-4xl text-yellow-500">photographer</span> at <span className="text-4xl text-[#f45664]">heart</span>.</p>,
+      title: <p>Programmer by <span className="text-4xl text-yellow-500">Passion</span>, Photographer at <span className="text-4xl text-[#f45664]">Heart</span></p>,
       description: <p>As part of my college journey I was also involved with activities beyond those just around a desk and a chair. I was a member of KIIT&apos;s student broadcasting society, aptly named Kreative eye. I was tenured for 3 quatres, and was tasked to cover events and produce social media ready content for the same. I was also responsible in improving organizational efficiency. Key events that covered were Republic Day&apos;23, KIIT-Fest&apos;23 and The 3rd Digital Data Science Conclave&apos;23.</p>,
       type: "square",
       parameter: KreativeEye
@@ -68,8 +68,8 @@ function HomePage() {
     <div className='flex flex-col bg-gray-100 min-h-screen py-20 md:pt-60 space-y-20 md:space-y-50 px-[5%]'>
 
       <div className="flex flex-col justify-center items-start lg:items-center space-y-5">
-        <h1 className="text-7xl font-bold text-gray-80 lg:text-center">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
-        <p>Creator | Developer | <span className='text-red-700 font-semibold'>Engineer</span> | Founder</p>
+        <h1 className="text-7xl font-bold text-gray-800 lg:text-center">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
+        <p className="text-gray-500">Creator | Developer | <span className='text-gray-600 font-semibold'>Engineer</span> | Founder</p>
       </div>
 
       <div className='space-y-10 md:space-y-30'>

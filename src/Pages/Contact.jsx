@@ -96,10 +96,10 @@ function Contact() {
 
         <div className='flex flex-col md:flex-row items-center justify-between md:space-x-5 not-md:space-y-5'>
           <img src={AdityaBanka} className='w-full md:w-[33%] h-auto rounded-xl md:rounded-2xl drop-shadow-2xl'></img>
-          <div className='text-xl w-full p-[3%]'>
-            <p>Reach <span className='text-2xl'>directly</span> via:</p>
-            <p>Phone: <span className='text-3xl'>+91 9470004041</span></p>
-            <p >Email: <span className='md:text-2xl'>adityabanka1947@gmail.com</span></p>
+          <div className='text-xl w-full p-[2%]'>
+            <p>Reach directly via:</p>
+            <p>Phone: <span >+91 9470004041</span></p>
+            <p >Email: <span >adityabanka1947@gmail.com</span></p>
           </div>
         </div>
 

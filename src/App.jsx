@@ -8,6 +8,7 @@ import Home from './Pages/Home.jsx'
 import Project from './Pages/Project.jsx'
 import Contact from './Pages/Contact.jsx'
 import NotFound from './Pages/NotFound.jsx'
+import Blog from './Pages/Blog.jsx'
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
         <Route path='/home' element={<Home />} />
         <Route path='/work' element={<Project />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/blog' element={<Blog />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </div>

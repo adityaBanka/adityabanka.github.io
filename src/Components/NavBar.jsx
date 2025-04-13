@@ -25,6 +25,12 @@ function Home() {
             <CustomButton activity={isActive}>Work</CustomButton>
         }
       </NavLink>
+      {/* <NavLink to='/blog'>
+        {
+          ({ isActive }) =>
+            <CustomButton activity={isActive}>Blog</CustomButton>
+        }
+      </NavLink> */}
       <NavLink to='/contact'>
         {
           ({ isActive }) =>
