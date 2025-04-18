@@ -1,7 +1,7 @@
 import InfoSection from "../Components/InfoSection"
 import SSB from "../Components/SemiBoldBlack"
 
-import AdityaBankaContact from "..z/assets/AdityaBankaContact.jpg"
+import AdityaBankaContact from "../assets/AdityaBankaContact.jpg"
 import NitCertificate from "../assets/Certificates/NitCertificate.jpg"
 import GoogleDataCertificate from "../assets/Certificates/GoogleDataCertificate.jpg"
 import MetaBackendCertificate from "../assets/Certificates/MetaBackendCertificate.jpg"
