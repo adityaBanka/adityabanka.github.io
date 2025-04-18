@@ -1,11 +1,11 @@
 import { useState, useRef } from 'react';
 
-import AdityaBanka from './Assets/AdityaBankaContact.jpg';
-import GithubLogo from './Assets/Logos/github-mark.svg';
-import LinkedInLogo from './Assets/Logos/In-Blue-128@2x.png';
-import InstagramLogo from './Assets/Logos/Instagram_Glyph_Gradient.png';
-import YoutubeLogo from './Assets/Logos/Youtube.png';
-import XLogo from './Assets/Logos/logo-black.png';
+import AdityaBanka from '../Assets/AdityaBankaContact.jpg';
+import GithubLogo from '../Assets/Logos/github-mark.svg';
+import LinkedInLogo from '../Assets/Logos/In-Blue-128@2x.png';
+import InstagramLogo from '../Assets/Logos/Instagram_Glyph_Gradient.png';
+import YoutubeLogo from '../Assets/Logos/Youtube.png';
+import XLogo from '../Assets/Logos/logo-black.png';
 
 
 
