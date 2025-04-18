@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import InfoSection from '../Components/InfoSection'
 import SSB from '../Components/SemiBoldBlack'
 
-import MinorProject from '../assets/Certificates/MinorProject.jpg'
-import ProjectImage from '../assets/websiteImage.jpg'
+import MinorProject from '../Assets/Certificates/MinorProject.jpg'
+import ProjectImage from '../Assets/websiteImage.jpg'
 
 function Project() {
 

@@ -1,14 +1,14 @@
 import InfoSection from "../Components/InfoSection"
 import SSB from "../Components/SemiBoldBlack"
 
-import AdityaBankaContact from "../assets/AdityaBankaContact.jpg"
-import NitCertificate from "../assets/Certificates/NitCertificate.jpg"
-import GoogleDataCertificate from "../assets/Certificates/GoogleDataCertificate.jpg"
-import MetaBackendCertificate from "../assets/Certificates/MetaBackendCertificate.jpg"
-import HackerRankIntermediateCertificate from "../assets/Certificates/HackerRankIntermediateCertificate.jpg"
-import HackerRankBasicCertificate from "../assets/Certificates/HackerRankBasicCertificate.jpg"
-import CodingNinjaCertificate from "../assets/Certificates/CodingNinjaCertificate.jpg"
-import KreativeEye from "../assets/Logos/KreativeEye.jpg"
+import AdityaBankaContact from "../Assets/AdityaBankaContact.jpg"
+import NitCertificate from "../Assets/Certificates/NitCertificate.jpg"
+import GoogleDataCertificate from "../Assets/Certificates/GoogleDataCertificate.jpg"
+import MetaBackendCertificate from "../Assets/Certificates/MetaBackendCertificate.jpg"
+import HackerRankIntermediateCertificate from "../Assets/Certificates/HackerRankIntermediateCertificate.jpg"
+import HackerRankBasicCertificate from "../Assets/Certificates/HackerRankBasicCertificate.jpg"
+import CodingNinjaCertificate from "../Assets/Certificates/CodingNinjaCertificate.jpg"
+import KreativeEye from "../Assets/Logos/KreativeEye.jpg"
 
 function HomePage() {
 
