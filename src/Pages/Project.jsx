@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import InfoSection from '../Components/InfoSection'
 import SSB from '../Components/SemiBoldBlack'
 
@@ -11,9 +11,6 @@ function Project() {
   const handleClick = () => {
     setCount(count + 1);
   }
-
-  useEffect(() => {
-  }, [])
 
   const projectData = [
     {

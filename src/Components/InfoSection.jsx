@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { useEffect, useRef, useState } from 'react';
 // eslint-disable-next-line react/prop-types
 function InfoSection({ direction, title, description, type, parameter, link }) {
