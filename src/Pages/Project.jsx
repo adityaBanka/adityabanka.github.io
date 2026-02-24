@@ -111,7 +111,7 @@ function Project() {
       secondElement:
       {
         title: <p>Neural network <a href='https://github.com/adityaBanka/neuralNetworkLibrary' target='_blank' className='text-4xl text-emerald-500'>Library</a> written in C++</p>,
-        description: <p>A complete implementation of a library that let&apos;s you dynamically build a Neural Network in C++ without using helper libraries such as Keras or TensorFlow.</p>,
+        description: <p>A basic implementation that let&apos;s you dynamically build a Neural Network in C++. Still a work in progress. End date: TBD.</p>,
         link: "https://github.com/adityaBanka/neuralNetworkLibrary"
       }
     },
