@@ -3,7 +3,7 @@ import { useState, useRef } from 'react';
 import AdityaBanka from '../Assets/AdityaBankaContact.jpg';
 import GithubLogo from '../Assets/Logos/github-mark.svg';
 import LinkedInLogo from '../Assets/Logos/In-Blue-128@2x.png';
-import InstagramLogo from '../Assets/Logos/Instagram_Glyph_Gradient.png';
+// import InstagramLogo from '../Assets/Logos/Instagram_Glyph_Gradient.png';
 import YoutubeLogo from '../Assets/Logos/Youtube.png';
 import XLogo from '../Assets/Logos/logo-black.png';
 
@@ -76,10 +76,10 @@ function Contact() {
             link="https://www.linkedin.com/in/adityabanka/"
             image={LinkedInLogo}
           ></ImageLink>
-          <ImageLink
+          {/* <ImageLink
             link="https://www.instagram.com/adityabanka.ig/"
             image={InstagramLogo}
-          ></ImageLink>
+          ></ImageLink> */}
           <ImageLink
             link="https://x.com/adityabankaX"
             image={XLogo}

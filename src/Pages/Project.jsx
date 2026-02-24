@@ -21,6 +21,13 @@ function Project() {
       link: "https://github.com/adityaBanka/geneticAgents"
     },
     {
+      title: <p>Heal Together, an <span className='text-4xl bg-gradient-to-t from-red-500 via-orange-400 to-red-700 bg-clip-text text-transparent'>Ai</span> gag site.</p>,
+      description: <p>Since LLMs have taken over our lives, I decided to have fun with the idea. What happens if we train Ai to be a companion, a therapist. What happens if the idea turns on it&apos;s head and becomes the exact opposite. The responses are pre-programmed and just for laugh, do not take it seriously. This was made to showcase my UI/UX skills and taste.</p>,
+      type: 'video',
+      parameter: "skhG6dACmXk",
+      link: "https://healtogether.vercel.app/"
+    },
+    {
       title: <p><span className='text-4xl text-green-500'>170,000,000,000</span>x faster sorting</p>,
       description: <p>This C program is able to sort 1 Billion signed integers i.e. 3.45GB of data in about 20 seconds. It is multi-processed and can dynamically create new process based on load and requirement. This is achieved by leveraging all CPU cores on a system and using in-place quick sort method. This also reduces the overhead caused by other methods like merge sort, or heap sort. First all 1 Billion integers are loaded in a shared memory segment that will be used by all the parallel processes. Then by utilizing divide and conquer the data is divided into smaller segments and recursively sorted.</p>,
       type: 'video',

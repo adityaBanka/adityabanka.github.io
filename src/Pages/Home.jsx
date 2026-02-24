@@ -69,7 +69,7 @@ function HomePage() {
 
       <div className="flex flex-col justify-center items-start lg:items-center space-y-5">
         <h1 className="text-7xl font-bold text-gray-800 lg:text-center">Hello world, I&apos;m <span className="text-blue-500">Aditya Banka</span></h1>
-        <p className="text-gray-500">Creator | Developer | <span className='text-gray-600 font-semibold'>Engineer</span> | Founder</p>
+        <p className="text-gray-500">Creator | Developer | <span className='text-gray-600 font-semibold'>Engineer</span></p>
       </div>
 
       <div className='space-y-10 md:space-y-30'>
