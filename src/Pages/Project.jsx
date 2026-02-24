@@ -23,7 +23,7 @@ function Project() {
     {
       title: <p>Heal Together, an <span className='text-4xl bg-gradient-to-t from-red-500 via-orange-400 to-red-700 bg-clip-text text-transparent'>Ai</span> gag site.</p>,
       description: <p>Since LLMs have taken over our lives, I decided to have fun with the idea. What happens if we train Ai to be a companion, a therapist. What happens if the idea turns on it&apos;s head and becomes the exact opposite. The responses are pre-programmed and just for laugh, do not take it seriously. This was made to showcase my UI/UX skills and taste.</p>,
-      type: 'video',
+      type: 'video1610',
       parameter: "skhG6dACmXk",
       link: "https://healtogether.vercel.app/"
     },

@@ -83,6 +83,22 @@ function InfoSection({ direction, title, description, type, parameter, link }) {
             ></iframe>
           </div>
         ) ||
+        (type === "video1610") && (
+          <div className="min-w-[55%] w-full rounded-xl md:rounded-2xl overflow-hidden" onClick={clickHandler} ref={videoRef}>
+            <iframe
+              src={`https://www.youtube.com/embed/${parameter}?enablejsapi=1&mute=1&fs=0&controls=0&disablekb=1&rel=0&button=0&loop=1&playlist=${parameter}`}
+              className="w-full h-auto rounded-xl md:rounded-2xl aspect-16/10 drop-shadow-2xl pointer-events-none"
+              onLoad={(e) => {
+                const iframe = e.target;
+                new YT.Player(iframe, {
+                  events: {
+                    onReady: onYouTubeIframeAPIReady,
+                  },
+                });
+              }}
+            ></iframe>
+          </div>
+        )||
         (type === "square") && (
           <img src={parameter} className="md:max-w-[20%] h-auto rounded-xl md:rounded-2xl not-md:drop-shadow-2xl md:hover:drop-shadow-2xl md:hover:scale-105 duration-250" onClick={clickHandler}></img>
         ) ||
